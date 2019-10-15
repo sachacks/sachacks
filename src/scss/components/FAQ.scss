@@ -1,5 +1,7 @@
 .FAQ {
   text-align: left;
+  height: 75vh;
+
   h1{
     color: white;
     font-size: $titleMobile;
@@ -49,9 +51,6 @@
       }
     }
 
-    // @include tablet-to-desktop {
-    //   margin-top: 20px;
-    // }
   }
 
   @media screen and (min-width:1024px){
