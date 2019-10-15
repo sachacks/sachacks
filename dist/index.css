@@ -355,6 +355,8 @@
     .sponsor h3 {
       font-size: 2em;
       line-height: 25pt; }
+    .sponsor h4 {
+      padding-bottom: 35px; }
     .sponsor .list-sponsor-row {
       display: flex;
       flex-direction: row;
