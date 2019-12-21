@@ -37,6 +37,7 @@
   "homepage": "https://github.com/BishalT/sachacks#readme",
   "dependencies": {
     "animate.css": "^3.6.1",
-    "fontface-loader": "0.0.8"
+    "fontface-loader": "0.0.8",
+    "particles.js": "^2.0.0"
   }
 }
