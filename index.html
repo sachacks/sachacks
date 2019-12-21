@@ -1,75 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta property="og:title" content="SacHacks | Sacramento's First Major Intercollegiate Hackathon">
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://sachacks.io" />
-  <meta property="og:image" content="http://sachacks.io/images/sachack_3.png" />
-  <meta property="og:image:width" content="1024" />
-  <meta property="og:image:height" content="172" />
-  <meta property="og:description" content="SacHacks is Sacramento's first upcoming intercollegiate hackathon, characterized by remarkable rounds of intense coding and brainstorming! Come together for 30 hours with the brightest developers and designers to create something amazing." />
-  <meta name="description" content="SacHacks | Sacramento's first intercollegiate Hackathon" />
-  <meta name="keywords" content="hackathon, Sacramento, California, hackathon, technology, startups, innovation, hacks" />
-  <meta name="author" content="SacHacks" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta http-equiv="cache-control" content="public" />
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-  <link rel="shortcut icon" href="images/rocket-color.png" type="image/x-icon">
-  <link rel="icon" href="images/rocket-color.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="dist/index.css">
-  <title>SacHacks</title>
-</head>
-<body>
-  <div class="wrapper">
-    <div class="header">
-      <div class="logo">
-        <!-- <a id="mlh-trust-badge" href="https://mlh.io/seasons/na-2019/events?utm_source=na-">
-          <img src="images/mlh-trust-badge-2019-white.svg"> -->
-        </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      property="og:title"
+      content="SacHacks | Sacramento's First Major Intercollegiate Hackathon"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://sachacks.io" />
+    <meta
+      property="og:image"
+      content="http://sachacks.io/images/sachack_3.png"
+    />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="172" />
+    <meta
+      property="og:description"
+      content="SacHacks is Sacramento's first upcoming intercollegiate hackathon, characterized by remarkable rounds of intense coding and brainstorming! Come together for 30 hours with the brightest developers and designers to create something amazing."
+    />
+    <meta
+      name="description"
+      content="SacHacks | Sacramento's first intercollegiate Hackathon"
+    />
+    <meta
+      name="keywords"
+      content="hackathon, Sacramento, California, hackathon, technology, startups, innovation, hacks"
+    />
+    <meta name="author" content="SacHacks" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta http-equiv="cache-control" content="public" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="images/rocket-color.png"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="images/rocket-color.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+      integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="dist/index.css" />
+    <title>SacHacks</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="logo">
+          <a
+            id="mlh-trust-badge"
+            href="https://mlh.io/seasons/na-2019/events?utm_source=na-"
+          >
+            <img src="images/mlh-trust-badge-2020-white.svg" />
+          </a>
+        </div>
+        <div class="header-title">
+          <a href="/">
+            <img src="images/sachack_3.png" alt="" />
+          </a>
+        </div>
       </div>
-      <div class="header-title">
-        <a href="/">
-          <img src="images/sachack_3.png" alt="">
-        </a>
-      </div>
-    </div>
 
-    <nav class="navbar navbar-default navbar-expand-lg navbar-light bg-light sticky-top">
-      <div class="rocket"><img class="animated" src="images/rocket-color.png" alt=""></div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="nav navbar-nav control-btn">
-            <li class="nav-item" name="1"><a href="./2018/index.html" class="nav-link"> 2018 </a></li>
-            <li class="nav-item" name="1"><a href="https://sachacks.typeform.com/to/IC7cSb" class="nav-link"> APPLY TO TEAM </a></li>
-            <li class="nav-item" name="0"><a href="#about" class="nav-link"> ABOUT <span class="sr-only">(current)</span></a></li>
-            <li class="nav-item" name="3"><a href="#sponsors" class="nav-link"> SPONSORS </a></li>
-        </ul>
-      </div>
-    </nav>
-    <div class="homepage padding-top">
-        <img src="images/sachack_3.png" alt="">
+      <nav
+        class="navbar navbar-default navbar-expand-lg navbar-light bg-light sticky-top"
+      >
+        <div class="rocket">
+          <img class="animated" src="images/rocket-color.png" alt="" />
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="nav navbar-nav control-btn">
+            <li class="nav-item" name="1">
+              <a href="./2018/index.html" class="nav-link"> 2018 </a>
+            </li>
+            <li class="nav-item" name="1">
+              <a
+                href="https://sachacks.typeform.com/to/EGB5L5"
+                class="nav-link"
+              >
+                APPLY
+              </a>
+            </li>
+            <li class="nav-item" name="0">
+              <a href="#about" class="nav-link">
+                ABOUT <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item" name="3">
+              <a href="#sponsors" class="nav-link"> SPONSORS </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="homepage padding-top">
+        <img src="images/sachack_3.png" alt="" />
         <div class="detail">
           <h3 id="space">Allegiant Innovation Center @ Sacramento, CA</h3>
           <h5 class="yellow">February 22-23, 2020</h5>
           <div class="host">
-              <h3 class="hostTitle">Co-Hosted By </h3>
-              <a href="https://www.nba.com/kings/news/sacramento-kings-sachacks-and-major-league-hacking-host-sacramentos-first-extensive" target="_blank"><img src="images/sac_kings_logo.png" height="95px" width="80px"></a>
+            <h3 class="hostTitle">Co-Hosted By</h3>
+            <a
+              href="https://www.nba.com/kings/news/sacramento-kings-sachacks-and-major-league-hacking-host-sacramentos-first-extensive"
+              target="_blank"
+              ><img src="images/sac_kings_logo.png" height="95px" width="80px"
+            /></a>
           </div>
           <div class="mainButtons">
-            <a href="https://sachacks.typeform.com/to/IC7cSb" target="_blank"><button class="btn btn-active">
-              APPLY TO TEAM</button>
+            <a href="https://sachacks.typeform.com/to/EGB5L5" target="_blank"
+              ><button class="btn btn-active">
+                APPLY
+              </button>
             </a>
             <a href="#sponsors" target="_blank">
               <button class="btn btn-home">SPONSOR US</button>
@@ -77,133 +165,200 @@
           </div>
         </div>
       </div>
-    <div class="about padding-top" id="about">
-      <div class="about-content">
+      <div class="about padding-top" id="about">
+        <div class="about-content">
           <div class="about-description">
-              <h1>About SacHacks</h1>
-              <div class="detail">
-                <p>
-                    <span class="yellow">Design. Code. Launch.</span>
-                    SacHacks is the first major intercollegiate hackathon in the Sacramento, California area. Our passion is to cultivate the untapped potential of those in Sac by
-                    providing them with the opportunity to launch their ideas in a public venue. We provide the place, you bring your ideas, and we have a friendly competition
-                    between all creative coders to launch their ideas into action during a 24-hour hackathon.
-                </p>
-              </div>
+            <h1>About SacHacks</h1>
+            <div class="detail">
+              <p>
+                <span class="yellow">Design. Code. Launch.</span>
+                SacHacks is the first major intercollegiate hackathon in the
+                Sacramento, California area. Our passion is to cultivate the
+                untapped potential of those in Sac by providing them with the
+                opportunity to launch their ideas in a public venue. We provide
+                the place, you bring your ideas, and we have a friendly
+                competition between all creative coders to launch their ideas
+                into action during a 24-hour hackathon.
+              </p>
+            </div>
           </div>
-          <img class="about-image" src="images/aboutimage.png"></img>
+          <img class="about-image" src="images/aboutimage.png" />
         </div>
       </div>
 
-    <div class="FAQ padding-top" id="faq">
+      <div class="FAQ padding-top" id="faq">
         <h1>Frequently Asked Questions</h1>
         <div class="Q-and-A">
           <li>
             <h3>What is a hackathon?</h3>
             <p>
-              A hackathon occurs when passionate people gather together to create, build, and launch their ideas with tech.
+              A hackathon occurs when passionate people gather together to
+              create, build, and launch their ideas with tech.
             </p>
           </li>
           <li>
             <h3>How much does it cost?</h3>
             <p>
-              Everything is provided by our team and sponsors. The event is free to attend.
+              Everything is provided by our team and sponsors. The event is free
+              to attend.
             </p>
           </li>
           <li>
             <h3>Who can attend?</h3>
             <p>
-              Any undergraduate student, graduate student, or industry professionals over the age of 18 are welcome!
+              Any undergraduate student, graduate student, or industry
+              professionals over the age of 18 are welcome!
             </p>
           </li>
           <li>
             <h3>Code of Conduct?</h3>
             <p>
-              All participants of our event must follow the MLH Code of Conduct. Click the link below to download a pdf for more information
-              <a href="assets/pdf/mlh-code-of-conduct.pdf" target="_blank">MLH Code of Conduct PDF</a>.
+              All participants of our event must follow the MLH Code of Conduct.
+              Click the link below to download a pdf for more information
+              <a href="assets/pdf/mlh-code-of-conduct.pdf" target="_blank"
+                >MLH Code of Conduct PDF</a
+              >.
             </p>
           </li>
           <li>
             <h3>I don't want to hack. Can I still attend?</h3>
             <p>
-                Yes! We'd love for you to apply to be a volunteer. A link to the volunteer application will be out soon.
+              Yes! We'd love for you to apply to be a volunteer. A link to the
+              volunteer application will be out soon.
             </p>
           </li>
           <li>
             <h3>Have more questions?</h3>
             <p>
-               Feel free to email us at <a href="mailto:team@sachacks.io">team@sachacks.io</a>.
+              Feel free to email us at
+              <a href="mailto:team@sachacks.io">team@sachacks.io</a>.
             </p>
           </li>
         </div>
-
       </div>
-    <div class="sponsor padding-top" id="sponsors">
+      <div class="sponsor padding-top" id="sponsors">
         <h1>Sponsors</h1>
-        <h4>Want to sponsor SacHacks? Contact us at our email <a href="mailto:team@sachacks.io">team@sachacks.io</a>.
-          Sponsorship Deck coming soon.
+        <h4>
+          Want to sponsor SacHacks? Contact us at our email
+          <a href="mailto:team@sachacks.io">team@sachacks.io</a>. Sponsorship
+          Deck coming soon.
         </h4>
         <div class="list-sponsor">
-            <div class="list-sponsor-row">
-                <a href="https://www.nba.com/kings/" target="_blank">
-                    <img src="images/sac_kings_logo.png" height="350px" width="289px">
-                </a>
-            </div>
+          <div class="list-sponsor-row">
+            <a href="https://www.nba.com/kings/" target="_blank">
+              <img
+                src="images/sac_kings_logo.png"
+                height="350px"
+                width="289px"
+              />
+            </a>
+          </div>
         </div>
         <div class="list-sponsor-row">
-                <a href="https://innovationcenter.allegiantgiving.org/" target="_blank">
-                    <img src="images/allegiant.png" height="110px" width="210px">
-                </a>
-                <a href="https://citris-uc.org/" target="_blank">
-                    <img src="images/citris.png" height="120px" width="260px">
-                </a>
-        </div>
-        <div class="list-sponsor-row">
-                <a href="https://startup.ucdavis.edu/" target="_blank">
-                    <img src="images/ucd_ssc.png" height="140px" width="220px">
-                </a>
-                <a href="https://www.chevron.com/" target="_blank">
-                    <img src="images/chevron.png" height="180px" width="180px">
-                </a>
-                <a href="http://engineering.ucdavis.edu/" target="_blank">
-                    <img src="images/ucd_coe_smaller.png" height="60px" width="310px">
-                </a>
-        </div>
-        <div class="list-sponsor-row">
-          <a href="https://www.sketch.com/press/" target="blank">
-            <img src="images/sketch.png" height="90px" width="236px">
+          <a
+            href="https://innovationcenter.allegiantgiving.org/"
+            target="_blank"
+          >
+            <img src="images/allegiant.png" height="110px" width="210px" />
           </a>
-
+          <a href="https://citris-uc.org/" target="_blank">
+            <img src="images/citris.png" height="120px" width="260px" />
+          </a>
+        </div>
+        <div class="list-sponsor-row">
+          <a href="https://startup.ucdavis.edu/" target="_blank">
+            <img src="images/ucd_ssc.png" height="140px" width="220px" />
+          </a>
+          <a href="https://www.chevron.com/" target="_blank">
+            <img src="images/chevron.png" height="180px" width="180px" />
+          </a>
+          <a href="http://engineering.ucdavis.edu/" target="_blank">
+            <img src="images/ucd_coe_smaller.png" height="60px" width="310px" />
+          </a>
+          <a href="https://github.com/" target="_blank">
+            <img src="images/github-logo.png" height="50px" width="195px" />
+          </a>
+          <a href="https://www.bloomberg.com/" target="_blank">
+            <img src="images/bloomberg-logo.png" height="50px" width="195px" />
+          </a>
+          <a href="https://www.stickermule.com/ " target="_blank">
+            <img
+              src="images/sticker-mule-logo.png"
+              height="40px"
+              width="215px"
+            />
+          </a>
         </div>
 
         <h1>Partners</h1>
-        <h4>Want to partner with SacHacks? Contact us at our email
+        <h4>
+          Want to partner with SacHacks? Contact us at our email
           <a href="mailto:team@sachacks.io">team@sachacks.io</a>.
         </h4>
         <div class="list-sponsor">
-            <div class="list-sponsor-row">
-                <a href="https://hackclub.com" target="_blank">
-                    <img src="images/hack_club_bank.png" height="85px" width="335px">
-                </a>
-            </div>
-            <div class="list-sponsor-row">
-                <a href="https://hackerlab.org/en" target="_blank">
-                    <img src="images/HL-Logo-Traditional.png" height="136px" width="195px">
-                </a>
-            </div>
+          <div class="list-sponsor-row">
+            <a href="https://hackclub.com" target="_blank">
+              <img
+                src="images/hack_club_bank.png"
+                height="85px"
+                width="335px"
+              />
+            </a>
+          </div>
+          <div class="list-sponsor-row">
+            <a href="https://hackerlab.org/en" target="_blank">
+              <img
+                src="images/HL-Logo-Traditional.png"
+                height="136px"
+                width="195px"
+              />
+            </a>
+          </div>
         </div>
-    </div>
-    <div class="footer-bar">
-        <p> SacHacks 2020 </p>
+      </div>
+      <div class="footer-bar">
+        <p>SacHacks 2020</p>
         <ul class="icon-bar">
-            <li><a href="https://www.facebook.com/sachacks/"/><i style="color:white" class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.linkedin.com/company/sachacks/"/><i style="color:white" class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.instagram.com/sachacks/?hl=en"/><i style="color:white" class="fab fa-instagram" aria-hidden="true"></i></a></li>
-            <li><a href="https://twitter.com/SacHacks18"/><i style="color:white" class="fab fa-twitter" aria-hidden="true"></i></a></li>
-    	</ul>
-        <p> <a href="mailto:team@sachacks.io">team@sachacks.io </a></p>
+          <li>
+            <a href="https://www.facebook.com/sachacks/"
+              ><i
+                style="color:white"
+                class="fab fa-facebook-f"
+                aria-hidden="true"
+              ></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/sachacks/"
+              ><i
+                style="color:white"
+                class="fab fa-linkedin"
+                aria-hidden="true"
+              ></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/sachacks/?hl=en"
+              ><i
+                style="color:white"
+                class="fab fa-instagram"
+                aria-hidden="true"
+              ></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/SacHacks18"
+              ><i
+                style="color:white"
+                class="fab fa-twitter"
+                aria-hidden="true"
+              ></i
+            ></a>
+          </li>
+        </ul>
+        <p><a href="mailto:team@sachacks.io">team@sachacks.io </a></p>
+      </div>
     </div>
-  </div>
-  <script src="./dist/bundle.js"></script>
-
-</body>
+    <script src="./dist/bundle.js"></script>
+  </body>
 </html>
