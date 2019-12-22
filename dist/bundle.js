@@ -109,19 +109,19 @@ document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
 });
 
 // schedule changing
-btn1.addEventListener('click', function () {
-  if (table1.classList.contains("tb-inactive")) {
-    tb_switch_active(btn1, table1);
-    tb_switch_inactive(btn2, table2);
-  }
-});
+// btn1.addEventListener('click', () => {
+//     if(table1.classList.contains("tb-inactive")) {
+//         tb_switch_active(btn1, table1);
+//         tb_switch_inactive(btn2, table2);
+//     }
+// });
 
-btn2.addEventListener('click', function () {
-  if (table2.classList.contains("tb-inactive")) {
-    tb_switch_active(btn2, table2);
-    tb_switch_inactive(btn1, table1);
-  }
-});
+// btn2.addEventListener('click', () => {
+//     if(table2.classList.contains("tb-inactive")) {
+//         tb_switch_active(btn2, table2);
+//         tb_switch_inactive(btn1, table1);
+//     }
+// });
 
 function tb_switch_active(btn, table) {
   table.classList.add("tb-active");
@@ -204,7 +204,7 @@ function tb_switch_inactive(btn, table) {
 particlesJS('particles', {
   particles: {
     number: {
-      value: 80,
+      value: 160,
       density: {
         enable: true,
         value_area: 800
@@ -229,12 +229,12 @@ particlesJS('particles', {
       }
     },
     opacity: {
-      value: 0.5,
-      random: false,
+      value: 1,
+      random: true,
       anim: {
-        enable: false,
+        enable: true,
         speed: 1,
-        opacity_min: 0.1,
+        opacity_min: 0,
         sync: false
       }
     },
@@ -243,13 +243,13 @@ particlesJS('particles', {
       random: true,
       anim: {
         enable: false,
-        speed: 40,
-        size_min: 0.1,
+        speed: 4,
+        size_min: 0.3,
         sync: false
       }
     },
     line_linked: {
-      enable: true,
+      enable: false,
       distance: 150,
       color: '#ffffff',
       opacity: 0.4,
@@ -257,16 +257,16 @@ particlesJS('particles', {
     },
     move: {
       enable: true,
-      speed: 6,
-      direction: 'none',
-      random: false,
+      speed: 0.5,
+      direction: 'right',
+      random: true,
       straight: false,
       out_mode: 'out',
       bounce: false,
       attract: {
         enable: false,
         rotateX: 600,
-        rotateY: 1200
+        rotateY: 600
       }
     }
   },
@@ -275,11 +275,11 @@ particlesJS('particles', {
     events: {
       onhover: {
         enable: true,
-        mode: 'repulse'
+        mode: 'bubble'
       },
       onclick: {
         enable: true,
-        mode: 'push'
+        mode: 'repulse'
       },
       resize: true
     },
@@ -291,14 +291,14 @@ particlesJS('particles', {
         }
       },
       bubble: {
-        distance: 400,
-        size: 40,
+        distance: 250,
+        size: 0,
         duration: 2,
-        opacity: 8,
+        opacity: 0,
         speed: 3
       },
       repulse: {
-        distance: 200,
+        distance: 400,
         duration: 0.4
       },
       push: {
