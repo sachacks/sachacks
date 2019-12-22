@@ -207,6 +207,16 @@
         height: 95px;
         width: 80px; }
 
+/* particles control */
+.particles-js-canvas-el {
+  background: #002561;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 100vh !important; }
+
 .about {
   width: 100%;
   height: 75vh; }
@@ -406,10 +416,6 @@ h1 {
   margin: 0;
   padding: 0; }
 
-body {
-  background-color: #002561;
-}
-
 .wrapper {
   position: relative;
   background-attachment: fixed;
@@ -418,6 +424,7 @@ body {
   width: 100%;
   height: 100%;
   overflow: scroll;
+  overflow-x: hidden;
   background-size: cover;
   background-repeat: no-repeat; }
   @media screen and (min-width: 1023px) {
@@ -502,12 +509,3 @@ body {
 
 .btn-sponsor {
   border: 2px solid #fbb03a; }
-
-/* particles control */
-.particles-js-canvas-el {
-  position: fixed;
-  z-index: -1;
-  top: 0;
-  display: block;
-  height: 100vh;
-}
