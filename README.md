@@ -73,6 +73,7 @@ home
 
 #### Designers
 * [ejwlee](https://www.linkedin.com/in/ejwlee/) - **Erica Lee**
+* [ashleylnguyen](https://www.linkedin.com/in/ashleylnguyen/) - **Ashley Nguyen**
 
 #### Previous Developers
 2018
@@ -81,6 +82,6 @@ home
 * [BishalT](https://github.com/BishalT) - **Bishal Thapa**
 * [DerLee4](https://github.com/DerLee4) - **Derek Lee**
 
-#### Previous Developers
+#### Previous Designers
 2018
 * [genesiating](https://www.linkedin.com/in/genesiating/) - **Genesia Ting**
