@@ -72,7 +72,7 @@ home
 * [beam-ntth](https://github.com/beam-ntth) - **Natheethorn Teacharuangchit**
 
 #### Designers
-* [ejwlee] (https://www.linkedin.com/in/ejwlee/) - **Erica Lee**
+* [ejwlee](https://www.linkedin.com/in/ejwlee/) - **Erica Lee**
 
 #### Previous Developers
 2018
