@@ -117,3 +117,14 @@
     }
   }
 }
+
+/* particles control */
+.particles-js-canvas-el {
+  background: $navy;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 100vh !important;
+}
