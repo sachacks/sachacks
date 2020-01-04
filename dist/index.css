@@ -418,7 +418,7 @@
 }
 
 .sponsor {
-  text-align: left;
+  text-align: center;
   display: flex;
   flex-direction: column;
 }
