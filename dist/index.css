@@ -604,7 +604,7 @@ h1 {
   height: 100vh;
   display: flex;
   flex-direction: column;
-   /* move SacHacks logo, venue, date, co-host to left on landing page */
+   /* text-align will move SacHacks logo, venue, date, co-host to left on landing page */
  
 }
 @media screen and (min-width: 1024px) {
@@ -669,12 +669,12 @@ h1 {
 .btn-sponsor {
   border: 2px solid #fbb03a;
 }
-.logo-container {
+.logo-container { /* sachacks logo default middle */
   text-align: center;
   display: block;
 }
 @media screen and (min-width: 1024px) {
   .logo-container {
-    text-align: left;
+    text-align: left; /* move sachacks logo on landing page to left */
   }
 }
