@@ -216,7 +216,6 @@
   word-spacing: 1.05pt;
   -webkit-margin-before: 0;
   padding: 10px 0 25px 0;
-  justify-content: center;
 }
 .homepage .detail h4 {
   color: #72aec4;
@@ -605,11 +604,10 @@ h1 {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  align-items: left; /* move SacHacks logo, venue, date, co-host to left on landing page */
+   /* move SacHacks logo, venue, date, co-host to left on landing page */
  
 }
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1024px) {
   .homepage {
     padding-bottom: 25px;
   }
@@ -620,7 +618,7 @@ h1 {
     -webkit-background-size: cover; 
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;    
+    -o-background-size: cover;  
     }
 }
 .btn {
@@ -670,4 +668,13 @@ h1 {
 
 .btn-sponsor {
   border: 2px solid #fbb03a;
+}
+.logo-container {
+  text-align: center;
+  display: block;
+}
+@media screen and (min-width: 1024px) {
+  .logo-container {
+    text-align: left;
+  }
 }
