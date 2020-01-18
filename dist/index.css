@@ -196,8 +196,7 @@
 @media screen and (min-width: 1025px) { /* screen size bigger than iPad Pro */
   .homepage .detail { /* venue, date, co-host */
       max-width: 500px;    
-      margin: 0;
-      
+      margin: 0;  
     }
 }
 
@@ -639,6 +638,13 @@ h1 {
   margin-bottom: 20px;
   letter-spacing: 1.3pt;
 }
+@media screen and (min-width: 1025px) { /* screen size bigger than iPad Pro */
+  .btn { 
+    width: 200px;
+    height: 90px;  
+    }
+}
+
 
 .btn:hover {
   background-color: #fbb03a;
