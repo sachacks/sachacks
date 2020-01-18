@@ -599,7 +599,7 @@ h1 {
 .padding-top {
   padding: 20px 20px 20px 20px;
 }
-@media screen and (min-width: 1023px) { /* for iPad Pro */
+@media screen and (min-width: 1023px) { /* for iPad Pro and bigger */
   .padding-top {
     padding: 75px 150px 75px 50px;
   }
@@ -614,6 +614,12 @@ h1 {
 @media screen and (min-width: 1024px) {
   .homepage {
     padding-bottom: 25px;
+  }
+}
+@media screen and (min-width: 1025px) { /* for iPad Pro and bigger */
+  .homepage {
+    padding-bottom: 25px;
+    padding-top: 50px;  
   }
 }
 @media screen and (min-width: 1025px) { /* landing page rocket and planets appear in sizes bigger than iPad Pro */
