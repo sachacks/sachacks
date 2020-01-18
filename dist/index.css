@@ -679,7 +679,7 @@ h1 {
   text-align: center;
   display: block;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) { /* for above iPad Pro size */
   .logo-container {
     text-align: left; /* move sachacks logo on landing page to left */
   }
