@@ -286,9 +286,31 @@
   height: 95px;
   width: 80px;
 }
+.mlh-trust-badge {
+    z-index: 1;
+}
+/* particles control */
+.particles-js-canvas-el {
+  background: #002561;
+  position:absolute; /*fixed; whole page */
+  z-index: -1;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 100vh !important; 
+overflow:auto;
+   
+    width: 100vw;
+    height: 100vh;
+clear:none;
+padding:0;
+margin:0;}
+
 .about {
   display: flex;
   flex-direction: column;
+     width: 100%;
+  height: 75vh;
 }
 .about h1 {
   color: white;
@@ -533,7 +555,7 @@ body {
   margin: 0;
   padding: 0;
   background-size: cover;
-  overflow: scroll, hidden;
+  /*overflow: scroll, hidden;*/
   -webkit-overflow-scrolling: touch;
   font-family: 'Avenir-Regular', 'Avenir-Thin';
 }
@@ -560,9 +582,11 @@ h1 {
   padding: 0;
   width: 100%;
   height: 100%;
-  overflow: scroll;
+  overflow: auto;
   background-size: cover;
   background-repeat: no-repeat;
+  /*overflow: scroll;*/
+  clear:none;
 }
 @media screen and (min-width: 1023px) {
   .wrapper {
