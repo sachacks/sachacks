@@ -165,10 +165,15 @@
     width: 80vw;
   }
 }
-@media screen and (min-width: 1023px) {
-  .homepage img { /* sachacks logo and cohost logo */
-    width: 50vw;
+@media screen and (min-width: 1023px) { /* for iPad Pro */
+  .homepage img { /* landing page sachacks logo */
+    width: 70vw;
     max-width: 1000px; 
+  }
+}
+@media screen and (min-width: 1025px) { /* for bigger iPad Pro */
+  .homepage img { /* landing page sachacks logo */
+    max-width: 650px; 
   }
 }
 .homepage .mainButtons {
@@ -177,6 +182,8 @@
 .homepage #space {
   margin-top: 4vh !important;
   margin-bottom: -2vh;
+  text-align: center; 
+  
 }
 .homepage .homepagespace {
   height: 11vh;
@@ -194,8 +201,8 @@
   margin: 0 auto;
 }
 @media screen and (min-width: 1025px) { /* screen size bigger than iPad Pro */
-  .homepage .detail { /* venue, date, co-host */
-      max-width: 500px;    
+  .homepage .detail { /* space for venue, date, co-host */
+      max-width:600px;    
       margin: 0;  
     }
 }
@@ -592,19 +599,17 @@ h1 {
 .padding-top {
   padding: 20px 20px 20px 20px;
 }
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1023px) { /* for iPad Pro */
   .padding-top {
     padding: 75px 150px 75px 150px;
   }
 }
-
 .homepage {
   padding-top: 75px;
   height: 100vh;
   display: flex;
   flex-direction: column;
    /* text-align will move SacHacks logo, venue, date, co-host to left on landing page */
- 
 }
 @media screen and (min-width: 1024px) {
   .homepage {
@@ -640,8 +645,9 @@ h1 {
 }
 @media screen and (min-width: 1025px) { /* screen size bigger than iPad Pro */
   .btn { 
-    width: 200px;
+    width: 300px;
     height: 90px;  
+    margin-left: 25%;
     }
 }
 
