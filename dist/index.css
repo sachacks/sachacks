@@ -309,9 +309,39 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 130vh;
+  height: 100vh;
   background-color: #002561;
   will-change: transform    
+}
+@media screen and (min-width: 321px) { /* phones except iPhone 5/SE */
+  .about{
+    height: 130vh;        
+   }
+}
+@media screen and (min-width: 375px) { /* iPhone 6/7/8 */
+  .about{
+    height: 120vh;        
+   }
+}
+@media screen and (min-width: 400px) { /* iPhone 6/7/8 plus */
+  .about{
+    height: 110vh;        
+   }
+}
+@media screen and (min-height: 800px) { /* iPhone X */
+  .about{
+    height: 100vh;        
+   }
+}
+@media screen and (min-height: 1000px) { /* iPad */
+  .about{
+    height: 60vh;        
+   }
+}
+@media screen and (min-height: 1300px) { /* iPad Pro*/
+  .about{
+    height: 50vh;        
+   }
 }
 .about h1 {
   color: white;
