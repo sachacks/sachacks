@@ -253,6 +253,9 @@
   .homepage .detail h3 { /* venue location */
     font-size: 1.0em;
   }
+  .homepage #space:hover { /* venue location */
+    opacity:0.7;
+  }    
   .homepage .detail div {
     width: 100%;
     justify-content: center;
@@ -292,7 +295,7 @@
 /* particles control */
 .particles-js-canvas-el {
   background: #002561;
-  position:absolute; /*fixed; whole page */
+  position: absolute; /*fixed; whole page */
   z-index: -1;
   top: 0;
   left: 0;
@@ -304,6 +307,7 @@
   clear:none;
   padding:0;
   margin:0;
+  will-change: transform;    
 }
 .about {
   display: flex;
@@ -612,68 +616,107 @@
     width:325px;
     height:370px 
   }
+  .kings:hover {
+    opacity:0.9;       
+  }
   .allegiant {
     will-change: transform;       
     width:203px;
     height:150px      
+  }
+  .allegiant:hover {
+    opacity:0.9;       
   }
   .citris {
     will-change: transform;        
     width:510px;
     height:130px       
   }
+  .citris:hover {
+    opacity:0.9;       
+  }
   .ssc {
     will-change: transform;       
     width:210px;
     height:130px  
   }
+  .ssc:hover {
+    opacity:0.9;       
+  }    
   .coe {
     will-change: transform;        
     width:320px;
     height:80px;   
+  }
+  .coe:hover {
+    opacity:0.9;       
   }
   .bobos {
     will-change: transform;       
     width:150px;    
     height:50px   
   }
+  .bobos:hover {
+    opacity:0.9;       
+  }
   .sketch {
     will-change: transform;      
     width:176px;    
     height:70px     
+  }
+  .sketch:hover {
+    opacity:0.9;       
   }
   .yerba {
     will-change: transform;  
     width:88px;
     height:100px 
   }
+  .yerba:hover {
+    opacity:0.9;       
+  }
   .mlh {
     will-change: transform;  
     width:237px;    
-    height:100px  
+    height:100px;
+    opacity:1
+  } 
+  .mlh:hover {
+    opacity:0.9;       
   }
   .hackclub {
     will-change: transform;   
     width:342px;    
     height:100px       
   }
+  .hackclub:hover {
+    opacity:0.9;       
+  }
   .hackerlab { 
     will-change: transform;       
     width:205px;
     height:150px   
+  }
+  .hackerlab:hover {
+    opacity:0.9;       
   }
   .acm {
     will-change: transform;       
     width:190px;    
     height:135px  
   }
+  .acm:hover {
+    opacity:0.9;       
+  }
   .sdc {
     will-change: transform;     
     width:160px;
     height:120px 
-  }    
+  }  
+  .sdc:hover {
+    opacity:0.9;       
+  }
 }
-
 .footer-bar {
   padding-top: 20px;
   width: 100%;
