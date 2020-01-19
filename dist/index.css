@@ -489,6 +489,71 @@
   text-decoration: underline;
   font-weight: bold;
 }
+.kings {
+  will-change: transform;        
+  width:220px;
+  height:250px       
+}
+.allegiant {
+  will-change: transform;   
+  width:135px;
+  height:100px       
+}
+.citris {
+  will-change: transform;      
+  width:300px;
+  height:68px       
+}
+.ssc {
+  will-change: transform;      
+  width:94px;
+  height:68px          
+}
+.coe {
+  will-change: transform;      
+  width:282px;
+  height:68px      
+}
+.bobos {
+  will-change: transform;      
+  width:150px;
+  height:50px      
+}
+.sketch {
+  will-change: transform;     
+  width:126px;
+  height:50px       
+}
+.yerba {
+  will-change: transform;      
+  width:44px;
+  height:50px   
+}
+.mlh {
+  will-change: transform;      
+  width:180px;
+  height:76px   
+}
+.hackclub {
+  will-change: transform;      
+  width:239x;
+  height:70px  
+}
+.hackerlab {
+  will-change: transform;      
+  width:108px;
+  height:80px  
+}
+.acm {
+  will-change: transform;      
+  width:65px;
+  height:50px       
+}
+.sdc {
+  will-change: transform;      
+  width:73px;
+  height:50px 
+}    
 @media screen and (min-width: 1024px) {
   .sponsor h1 {
     font-size: 3.5em;
@@ -512,6 +577,71 @@
   .sponsor .list-sponsor-row img {
     margin: 40px;
   }
+  .kings {
+    will-change: transform;       
+    width:325px;
+    height:370px 
+  }
+  .allegiant {
+    will-change: transform;       
+    width:203px;
+    height:150px      
+  }
+  .citris {
+    will-change: transform;        
+    width:510px;
+    height:130px       
+  }
+  .ssc {
+    will-change: transform;       
+    width:210px;
+    height:130px  
+  }
+  .coe {
+    will-change: transform;        
+    width:320px;
+    height:80px;   
+  }
+  .bobos {
+    will-change: transform;       
+    width:150px;    
+    height:50px   
+  }
+  .sketch {
+    will-change: transform;      
+    width:176px;    
+    height:70px     
+  }
+  .yerba {
+    will-change: transform;  
+    width:88px;
+    height:100px 
+  }
+  .mlh {
+    will-change: transform;  
+    width:237px;    
+    height:100px  
+  }
+  .hackclub {
+    will-change: transform;   
+    width:342px;    
+    height:100px       
+  }
+  .hackerlab { 
+    will-change: transform;       
+    width:205px;
+    height:150px   
+  }
+  .acm {
+    will-change: transform;       
+    width:190px;    
+    height:135px  
+  }
+  .sdc {
+    will-change: transform;     
+    width:160px;
+    height:120px 
+  }    
 }
 
 .footer-bar {
@@ -564,6 +694,7 @@ body {
   /*overflow: scroll, hidden;*/
   -webkit-overflow-scrolling: touch;
   font-family: 'Avenir-Regular', 'Avenir-Thin';
+  will-change: transform;      
 }
 
 p {
