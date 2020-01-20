@@ -76,10 +76,10 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="dist/index.css" />
-    <title>SacHacks</title>
+    <title id="title">SacHacks</title>
   </head>
   <body>
-    <div class="wrapper">
+      <div id="particles" class="wrapper">
       <div class="header">
         <div class="logo">
           <a
@@ -95,10 +95,8 @@
           </a>
         </div>
       </div>
-
       <nav
-        class="navbar navbar-default navbar-expand-lg navbar-light bg-light sticky-top"
-      >
+        class="navbar navbar-default navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="rocket">
           <img class="animated" src="images/rocket-color.png" alt="" />
         </div>
@@ -139,11 +137,12 @@
             </li>
           </ul>
         </div>
-      </nav>
-      <div class="homepage padding-top">
-        <img src="images/sachack_3.png" alt="" />
+      </nav>  
+      <div class="homepage padding-top" id="homepage">
+          <span class="logo-container"><img src="images/sachack_3.png" alt="" /></span> 
         <div class="detail">
-          <h3 id="space">Allegiant Innovation Center @ Sacramento, CA</h3>
+          <h3 id="space"><a href="https://goo.gl/maps/p6W1icg6zideF4Kz8" 
+                            target="_blank" style="color:white;text-decoration: none;">Allegiant Innovation Center @ Sacramento, CA</a></h3>
           <h5 class="yellow">February 22-23, 2020</h5>
           <div class="host">
             <h3 class="hostTitle">Co-Hosted By</h3>
@@ -153,6 +152,9 @@
               ><img src="images/sac_kings_logo.png" height="95px" width="80px"
             /></a>
           </div>
+           <div class="detail">
+            <h3>Applications Close 1/30/20</h3>
+          </div>        
           <div class="mainButtons">
             <a href="https://sachacks.typeform.com/to/EGB5L5" target="_blank"
               ><button class="btn btn-active">
@@ -163,11 +165,9 @@
               <button class="btn btn-home">BE A MENTOR</button>
             </a>
           </div>
-          <div class="detail">
-            <h3>Applications Close 1/30/20</h3>
-          </div>
         </div>
       </div>
+      <!--</div><div class="wrapper">-->
       <div class="about padding-top" id="about">
         <div class="about-content">
           <div class="about-description">
@@ -232,6 +232,24 @@
             </p>
           </li> -->
           <li>
+            <h3>Will SacHacks provide travel reimbursements? </h3>
+            <p>
+              Unfortunately, we cannot provide travel reimbursements for this year.
+            </p>
+          </li>
+          <!--<li>
+            <h3>What should we bring to SacHacks? </h3>
+            <p>
+              Bring your ticket and QR code, phone, computer, chargers, monitors, headphones, and any other hardware you might want to use. Also, bring a change of clothes, a toothbrush, deodorant, and any other toiletries you may need. A sleeping bag and yoga mat go a long way. If you have a mask, make sure to bring it! Bring an umbrella too in case it rains!
+            </p>
+          </li>
+          <li>
+            <h3>Do I need to bring an ID?</h3>
+            <p>
+               Yes, bring an government issued ID with your birth date on it.
+            </p>
+          </li>-->
+          <li>
             <h3>Have more questions?</h3>
             <p>
               Feel free to email us at
@@ -249,56 +267,43 @@
         <div class="list-sponsor">
           <div class="list-sponsor-row">
             <a href="https://www.nba.com/kings/" target="_blank">
-              <img
-                src="images/sac_kings_logo.png"
-                height="300px"
-                width="239px"
-              />
+              <img class="kings" src="images/sac_kings_logo.png"/>
             </a>
           </div>
         </div>
         <div class="list-sponsor-row">
-          <a
-            href="https://innovationcenter.allegiantgiving.org/"
-            target="_blank"
-          >
-            <img src="images/allegiant.png" height="160px" width="270px" />
+          <a href="https://innovationcenter.allegiantgiving.org/" target="_blank">
+            <img class="allegiant" src="images/allegiant.png"/>
           </a>
           <a href="https://citris-uc.org/" target="_blank">
-            <img src="images/citris.png" height="130px" width="510px" />
+            <img class="citris" src="images/citris.png"  />
           </a>
         </div>
         <div class="list-sponsor-row">
           <a href="https://startup.ucdavis.edu/" target="_blank">
-            <img src="images/ucd_ssc.png" height="130px" width="210px" />
+            <img class="ssc" src="images/ucd_ssc.png" />
           </a>
           <!-- <a href="https://www.chevron.com/" target="_blank">
             <img src="images/chevron.png" height="160px" width="160px" />
           </a> -->
           <a href="http://engineering.ucdavis.edu/" target="_blank">
-            <img src="images/College-of-engineering.png" height="80px" width="320px" />
+            <img class="coe" src="images/College-of-engineering.png"/>
           </a>
         </div>
         <div class="list-sponsor-row">
-          <a href="https://github.com/" target="_blank">
-            <img src="images/github-logo.png" height="70px" width="200px" />
-          </a>
-          <a href="https://www.bloomberg.com/" target="_blank">
-            <img src="images/bloomberg-logo.png" height="65px" width="230px" />
-          </a>
           <!-- <a href="https://www.stickermule.com/ " target="_blank">
             <img src="images/sticker-mule-logo.png" height="55px" width="270px"/>
           </a> -->
           <a href="https://eatbobos.com/" target="_blank">
-            <img src="images/bobos.png" height="40px" width="220px"/>
+            <img class="bobos" src="images/bobos.png" />
           </a>
         </div>
         <div class="list-sponsor-row">
           <a href="https://www.sketch.com/" target="_blank">
-            <img src="images/sketch.png" width="215px"/>
+            <img class="sketch" src="images/sketch.png"/>
           </a>
           <a href="https://guayaki.com/yerba-mate/" target="_blank">
-            <img src="images/yerba mate-01.png" height="160px" width="160px" />
+            <img class="yerba" src="images/yerba mate-01.png" />
           </a>
         </div>
 
@@ -311,47 +316,42 @@
         <div class="list-sponsor">
           <div class="list-sponsor-row">
             <a href="https://mlh.io" target="_blank">
-              <img
+              <img class="mlh" 
                 src="images/mlh-logo-white.png"
-                width="280px"
               />
             </a>
           </div>
           <div class="list-sponsor-row">
             <a href="https://hackclub.com" target="_blank">
-              <img
+              <img class="hackclub"
                 src="images/hack-club-bank.png"
-                width="335px"
+                
               />
             </a>
           </div>
           <div class="list-sponsor-row">
             <a href="https://hackerlab.org/en" target="_blank">
-              <img
+              <img class="hackerlab"
                 src="images/HL-Logo-Traditional.png"
-                height="150px"
-                width="205px"
               />
             </a>
           </div>
           <div class="list-sponsor-row">
             <a href="http://losriosccd.acm.org/" target="_blank">
-              <img
+              <img class="acm"
                 src="images/acm.png"
-                height="135px"
-                width="190px"
+
               />
             </a>
             <a href="https://www.sacdevcollective.org/" target="_blank">
-              <img
+              <img class="sdc"
                 src="images/sdc.png"
-                height="120px"
-                width="160px"
+
               />
             </a>
           </div>
         </div>
-      </div>
+      </div> 
       <div class="footer-bar">
         <p>SacHacks 2020</p>
         <ul class="icon-bar">
@@ -395,6 +395,9 @@
         <p><a href="mailto:team@sachacks.io">team@sachacks.io </a></p>
       </div>
     </div>
+      
+      
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>  
     <script src="./dist/bundle.js"></script>
   </body>
 </html>
