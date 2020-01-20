@@ -523,82 +523,82 @@
   text-decoration: underline;
   font-weight: bold;
 }
-.kings {
+.kings { /* mobile */
   will-change: transform;        
   width:220px;
   height:250px       
 }
-.allegiant {
+.allegiant { /* mobile */
   will-change: transform;   
   width:135px;
   height:100px       
 }
-.citris {
+.citris { /* mobile */
   will-change: transform;      
   width:300px;
   height:68px       
 }
-.ssc {
+.ssc { /* mobile */
   will-change: transform;      
   width:94px;
   height:68px          
 }
-.coe {
+.coe { /* mobile */
   will-change: transform;      
   width:282px;
   height:68px      
 }
-.stickermule {
+.stickermule { /* mobile */
   will-change: transform;       
   width:270px;    
   height:55px   
 }
-.bobos {
-  will-change: transform;      
-  width:150px;
-  height:50px      
-}
-.sketch {
+.sketch { /* mobile */
   will-change: transform;     
   width:176px;
   height:70px       
 }
-.yerba {
+.bobos { /* mobile */
+  will-change: transform;      
+  width:150px;
+  height:50px      
+}
+.yerba { /* mobile */
   will-change: transform;      
   width:44px;
   height:50px   
 }
-.mlh {
+.mlh { /* mobile */
   will-change: transform;      
   width:180px;
   height:76px   
 }
-.hackclub {
+.hackclub { /* mobile */
   will-change: transform;      
   width:239x;
   height:70px  
 }
-.hackerlab {
+.hackerlab { /* mobile */
   will-change: transform;      
   width:108px;
   height:80px  
 }
-.acm {
-  will-change: transform;      
-  width:65px;
-  height:50px       
-}
-.sdc {
+.sdc { /* mobile */
   will-change: transform;      
   width:73px;
   height:50px 
 }    
-.wics {
+.acm { /* mobile */
   will-change: transform;      
-  width:200px;
-  height:90px 
+  width:65px;
+  height:50px       
+}
+.wics { /* mobile */
+  will-change: transform;      
+  width:113px;
+  height:50px 
 }  
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) { /* for iPad and bigger */
   .sponsor h1 {
     font-size: 3.5em;
     text-align: left;
@@ -668,6 +668,14 @@
   }
   .stickermule:hover {
     opacity:0.9;       
+  }  
+  .sketch {
+    will-change: transform;      
+    width:176px;    
+    height:70px     
+  }
+  .sketch:hover {
+    opacity:0.9;       
   }    
   .bobos {
     will-change: transform;       
@@ -675,14 +683,6 @@
     height:50px   
   }
   .bobos:hover {
-    opacity:0.9;       
-  }
-  .sketch {
-    will-change: transform;      
-    width:176px;    
-    height:70px     
-  }
-  .sketch:hover {
     opacity:0.9;       
   }
   .yerba {
@@ -718,6 +718,14 @@
   .hackerlab:hover {
     opacity:0.9;       
   }
+   .sdc {
+    will-change: transform;     
+    width:160px;
+    height:120px 
+  }  
+  .sdc:hover {
+    opacity:0.9;       
+  }   
   .acm {
     will-change: transform;       
     width:190px;    
@@ -726,14 +734,14 @@
   .acm:hover {
     opacity:0.9;       
   }
-  .sdc {
-    will-change: transform;     
-    width:160px;
-    height:120px 
-  }  
-  .sdc:hover {
+  .wics {
+    will-change: transform;      
+    width:200px;
+    height:88px 
+  } 
+  .wics:hover {
     opacity:0.9;       
-  }
+  }    
 }
 .footer-bar {
   padding-top: 20px;
