@@ -548,6 +548,11 @@
   width:282px;
   height:68px      
 }
+.stickermule {
+  will-change: transform;       
+  width:270px;    
+  height:55px   
+}
 .bobos {
   will-change: transform;      
   width:150px;
@@ -651,6 +656,14 @@
   .coe:hover {
     opacity:0.9;       
   }
+  .stickermule {
+    will-change: transform;       
+    width:270px;    
+    height:55px   
+  }
+  .stickermule:hover {
+    opacity:0.9;       
+  }    
   .bobos {
     will-change: transform;       
     width:150px;    
