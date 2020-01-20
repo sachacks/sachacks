@@ -588,6 +588,11 @@
   width:73px;
   height:50px 
 }    
+.wics {
+  will-change: transform;      
+  width:200px;
+  height:90px 
+}  
 @media screen and (min-width: 1024px) {
   .sponsor h1 {
     font-size: 3.5em;
