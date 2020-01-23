@@ -548,6 +548,11 @@
   width:282px;
   height:68px      
 }
+.git {
+  will-change: transform;      
+  width:220px;
+  height:65px 
+}
 .bobos {
   will-change: transform;      
   width:150px;
