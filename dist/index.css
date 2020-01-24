@@ -553,6 +553,11 @@
   width:270px;    
   height:55px   
 }
+.git {
+  will-change: transform;     
+  width:210px;
+  height:70px  
+}
 .sketch { /* mobile */
   will-change: transform;     
   width:176px;
