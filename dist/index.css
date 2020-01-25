@@ -560,13 +560,13 @@
 }
 .git { /* mobile */
     will-change: transform;
-    width: 120px;
-    height: 40px
+    width: 133px;
+    height: 50px
 }
 .bobos { /* mobile */
   will-change: transform;      
-  width:150px;
-  height:50px      
+  width:120px;
+  height:40px      
 }
 .yerba { /* mobile */
   will-change: transform;      
