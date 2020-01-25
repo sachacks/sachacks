@@ -553,15 +553,15 @@
   width:270px;    
   height:55px   
 }
-.git {
-  will-change: transform;     
-  width:210px;
-  height:70px  
-}
 .sketch { /* mobile */
   will-change: transform;     
   width:176px;
   height:70px       
+}
+.git { /* mobile */
+    will-change: transform;
+    width: 120px;
+    height: 40px
 }
 .bobos { /* mobile */
   will-change: transform;      
@@ -681,7 +681,15 @@
   }
   .sketch:hover {
     opacity:0.9;       
-  }    
+  }
+ .git { 
+    will-change: transform;
+    width: 185px;
+    height: 70px
+  }
+  .git:hover { 
+    opacity:0.9; 
+  }
   .bobos {
     will-change: transform;       
     width:150px;    
