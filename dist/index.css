@@ -566,7 +566,17 @@
 }
 .yerba { /* mobile */
   will-change: transform;      
-  width:44px;
+  width:110px;
+  height:60px   
+}
+.zesttea { /* mobile */
+  will-change: transform;      
+  width:210px;
+  height:50px   
+}
+.cedar { /* mobile */
+  will-change: transform;      
+  width:210px;
   height:50px   
 }
 .mlh { /* mobile */
@@ -696,12 +706,28 @@
   }
   .yerba {
     will-change: transform;  
-    width:88px;
-    height:100px 
+    width:160px;
+    height:90px 
   }
   .yerba:hover {
     opacity:0.9;       
   }
+  .zesttea {
+    will-change: transform;  
+    width:175px;
+    height:55px 
+  }
+  .zesttea:hover {
+    opacity:0.9;       
+  }
+  .cedar {
+    will-change: transform;  
+    width:210px;
+    height:60px 
+  }
+  .cedar:hover {
+    opacity:0.9;       
+  } 
   .mlh {
     will-change: transform;  
     width:237px;    
