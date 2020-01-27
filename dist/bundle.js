@@ -124,16 +124,16 @@ document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
 // });
 
 function tb_switch_active(btn, table) {
-  table.classList.add("tb-active");
-  table.classList.remove("tb-inactive");
-  btn.classList.add("btn-active");
-  btn.classList.remove("btn-inactive");
+  table.classList.add('tb-active');
+  table.classList.remove('tb-inactive');
+  btn.classList.add('btn-active');
+  btn.classList.remove('btn-inactive');
 }
 function tb_switch_inactive(btn, table) {
-  table.classList.add("tb-inactive");
-  table.classList.remove("tb-active");
-  btn.classList.add("btn-inactive");
-  btn.classList.remove("btn-active");
+  table.classList.add('tb-inactive');
+  table.classList.remove('tb-active');
+  btn.classList.add('btn-inactive');
+  btn.classList.remove('btn-active');
 }
 
 // hiddenMenu.addEventListener('click', () => {
