@@ -111,7 +111,7 @@ h1{
 
 // main background
 .wrapper {
-  background-color:#002561;
+
   position: relative;
   background-attachment: fixed;
   margin: 0;
@@ -119,6 +119,7 @@ h1{
   width: 100%;
   height: 100%;
   overflow: scroll;
+  overflow-x: hidden;
   // background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
