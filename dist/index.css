@@ -294,7 +294,6 @@
 }
 /* particles control */
 .particles-js-canvas-el {
-  background: #002561;
   position: absolute; /*fixed; whole page */
   z-index: -1;
   top: 0;
@@ -314,7 +313,6 @@
   flex-direction: column;
   width: 100%;
   height: 100vh;
-  background-color: #002561;
   will-change: transform    
 }
 @media screen and (min-width: 321px) { /* phones except iPhone 5/SE */
@@ -418,7 +416,6 @@
 .FAQ {
   text-align: left;
   /* height: 75vh;*/
-  background-color: #002561;
   will-change: transform    
 }
 .FAQ h1 {
@@ -495,7 +492,6 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  background-color:#002561;
   will-change: transform    
 }
 .sponsor h1 {
@@ -553,20 +549,20 @@
   width:270px;    
   height:55px   
 }
-.git {
-  will-change: transform;     
-  width:210px;
-  height:70px  
-}
 .sketch { /* mobile */
   will-change: transform;     
   width:176px;
   height:70px       
 }
+.git { /* mobile */
+    will-change: transform;
+    width: 133px;
+    height: 50px
+}
 .bobos { /* mobile */
   will-change: transform;      
-  width:150px;
-  height:50px      
+  width:120px;
+  height:40px      
 }
 .yerba { /* mobile */
   will-change: transform;      
@@ -681,7 +677,15 @@
   }
   .sketch:hover {
     opacity:0.9;       
-  }    
+  }
+ .git { 
+    will-change: transform;
+    width: 185px;
+    height: 70px
+  }
+  .git:hover { 
+    opacity:0.9; 
+  }
   .bobos {
     will-change: transform;       
     width:150px;    
@@ -755,8 +759,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
-  background-color:#002561    
+  color: white
+  /*background-color:#002561   */ 
 }
 .footer-bar .icon-bar {
   list-style: none;
@@ -799,6 +803,22 @@ body {
   -webkit-overflow-scrolling: touch;
   font-family: 'Avenir-Regular', 'Avenir-Thin';
   will-change: transform;      
+  background: linear-gradient(-10deg, #002561, black, #002561, #002561);
+  /*                                  bottm                       top    */
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 p {
@@ -816,7 +836,6 @@ h1 {
 }
 
 .wrapper {
-  background-color: #002561;
   position: relative;
   background-attachment: fixed;
   margin: 0;
@@ -890,7 +909,7 @@ h1 {
 }
 @media screen and (min-width: 1025px) { /* landing page rocket and planets appear in sizes bigger than iPad Pro */
   .homepage {
-    background: url(../images/spaceship+2planets.png) no-repeat center center scroll;
+    background: url(../images/spaceship+2planets2.png) no-repeat center center scroll;
     -webkit-background-size: cover; 
     -moz-background-size: cover;
     background-size: cover;
@@ -922,7 +941,6 @@ h1 {
     margin-left: 5%;
     }
 }
-
 
 .btn:hover {
   background-color: #fbb03a;
