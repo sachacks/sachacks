@@ -534,6 +534,11 @@
   width:300px;
   height:68px       
 }
+.cedar { /* mobile */
+  will-change: transform;      
+  width:262px;
+  height:68px   
+}
 .ssc { /* mobile */
   will-change: transform;      
   width:94px;
@@ -571,12 +576,7 @@
 }
 .zesttea { /* mobile */
   will-change: transform;      
-  width:210px;
-  height:50px   
-}
-.cedar { /* mobile */
-  will-change: transform;      
-  width:210px;
+  width:188px;
   height:50px   
 }
 .mlh { /* mobile */
@@ -656,6 +656,14 @@
   .citris:hover {
     opacity:0.9;       
   }
+  .cedar {
+    will-change: transform;  
+    width:308px;
+    height:80px 
+  }
+  .cedar:hover {
+    opacity:0.9;       
+  }    
   .ssc {
     will-change: transform;       
     width:210px;
@@ -714,20 +722,12 @@
   }
   .zesttea {
     will-change: transform;  
-    width:175px;
-    height:55px 
+    width:244px;
+    height:65px 
   }
   .zesttea:hover {
     opacity:0.9;       
   }
-  .cedar {
-    will-change: transform;  
-    width:210px;
-    height:60px 
-  }
-  .cedar:hover {
-    opacity:0.9;       
-  } 
   .mlh {
     will-change: transform;  
     width:237px;    
