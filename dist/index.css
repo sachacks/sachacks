@@ -213,7 +213,7 @@
   color: #fbb03a;
   font-weight: 500;
 }
-.homepage .detail h3 { /* apps due date */
+.homepage .detail h3 { /* venue, data, co-host */
   white-space: pre-wrap;
   color: white;
   font-size: 1em;
@@ -915,12 +915,13 @@ h1 {
     padding: 75px 150px 75px 50px;
   }
 }
-.homepage {
+.homepage { /* there is 2 homepages */
   padding-top: 75px;
   height: 100vh;
   display: flex;
   flex-direction: column;
    /* text-align will move SacHacks logo, venue, date, co-host to left on landing page */
+  padding-left: 7%;
 }
 @media screen and (min-width: 1024px) {
   .homepage {
@@ -951,7 +952,7 @@ h1 {
   padding: 5px 20px;
   text-align: center;
   border-radius: 7px;
-  margin: 0 20px;
+  margin: 20px 20px 0 20px;
   margin-bottom: 20px;
   border: 2px solid #72adc4;
   transition: all 0.3s ease-in;
@@ -1000,6 +1001,7 @@ h1 {
 .logo-container { /* sachacks logo default middle */
   text-align: center;
   display: block;
+  padding-top: 10%;
 }
 @media screen and (min-width: 1025px) { /* for above iPad Pro size */
   .logo-container {
