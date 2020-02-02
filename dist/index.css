@@ -1001,7 +1001,7 @@ h1 {
 .logo-container { /* sachacks logo default middle */
   text-align: center;
   display: block;
-  padding-top: 10%;
+  padding-top: 7%;
 }
 @media screen and (min-width: 1025px) { /* for above iPad Pro size */
   .logo-container {
