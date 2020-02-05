@@ -75,10 +75,24 @@
   </head>
   <body>
     <div class="site-container">
-      <div class="">
-        <div class=""></div>
-      </div>
       <main class="site-content container">
+        <div class="title">
+          <img src="images/sachack_2.png" alt="" />
+          <div class="meta meta--md meta--gold">Live Dashboard</div>
+        </div>
+        <div class="timer">
+          <div class="timer__container">
+            <h2 class="timer__heading">timer</h2>
+            <div class="timer__time">0:0:0:0</div>
+            <p>Until the launch of...</p>
+            <div id="event-name" class="text-uppercase font-weight-bold">
+              Midnight snack
+            </div>
+          </div>
+        </div>
+        <div class="meta meta--md meta--gold text-center mb-5">
+          Scroll down for more info
+        </div>
         <div id="row-1" class="row">
           <div class="col-md-5 col-12 left flx-col">
             <div class="info-block">
@@ -164,11 +178,13 @@
             <div class="info-block">
               <div class="info-block__controls">
                 <h2 class="info-block__title">schedule</h2>
-                <div class="btn-group">
-                  <button class="btn btn-lg btn-lg--active">
+                <div class="btn-group wide">
+                  <button class="btn day-btn day-btn-lg day-btn-lg--active">
                     Feb 22<sup>nd</sup>
                   </button>
-                  <button class="btn btn-lg">Feb 23<sup>rd</sup></button>
+                  <button class="btn day-btn day-btn-lg">
+                    Feb 23<sup>rd</sup>
+                  </button>
                 </div>
               </div>
               <table class="info-block__table">
@@ -238,10 +254,12 @@
           <div class="left col-md-5 col-12 flx-col">
             <div class="info-block">
               <h2 class="info-block__title">contact a mentor</h2>
-              <button class="btn btn-lg mb-5 py-md-5 py-4">
+              <button class="btn day-btn day-btn-lg mb-5 py-md-5 py-4">
                 Technical Question
               </button>
-              <button class="btn btn-lg py-md-5 py-4">Other Inquiries</button>
+              <button class="btn day-btn day-btn-lg py-md-5 py-4">
+                Other Inquiries
+              </button>
             </div>
           </div>
           <div class="right col-md-7 col-12 flx-col">
@@ -535,9 +553,6 @@
               </p>
             </div>
           </div>
-        </div>
-        <div id="row-5" class="row">
-          <div class="col-md-7 col-12 left flx-col"></div>
         </div>
       </main>
     </div>
