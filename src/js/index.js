@@ -7,6 +7,7 @@
 // scss
 import 'animate.css';
 import '../scss/index.scss';
+import '../scss/day.scss';
 
 // search the DOM
 // const wrapper = document.querySelector('.wrapper');

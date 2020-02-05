@@ -1,22 +1,30 @@
+
+// bootstrap variables. We provide our own values
+$primary: #002561;
+$secondary: #fbb03a;
+
+// bring in bootstrap so we can customize some of it's defaults
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
 // font size
-$title : 3.5em;
+$title: 3.5em;
 $titleWeight: 500;
-$header: 2.0em;
-$titleMobile: 2.0em;
-$detail: 1.0em;
+$header: 2em;
+$titleMobile: 2em;
+$detail: 1em;
 $detailHeight: 25pt;
 $detailWeight: 400;
 $mobileDetail: 1.2em;
-$mobileHeader3: 1.0em; //20pt
+$mobileHeader3: 1em; //20pt
 $sponsorshipSub: 20px;
 $spacing: normal;
 $spacingDesktop: 1.2pt;
 
 // color
-$yellow : #fbb03a;
+$yellow: #fbb03a;
 $blue: #72adc4;
 $navy: #002561;
-$gray: #5A5A5A;
+$gray: #5a5a5a;
 $hoverblue: #0c6298;
 
 // layout
@@ -87,7 +95,8 @@ $hoverblue: #0c6298;
 @import './components/sponsor.scss';
 @import './components/footer.scss';
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -98,20 +107,19 @@ html, body {
   font-family: 'Avenir-Regular', 'Avenir-Thin';
 }
 
-p{
+p {
   letter-spacing: $spacing;
   @include desktop-and-up {
     letter-spacing: $spacingDesktop;
   }
 }
-h1{
+h1 {
   margin: 0;
   padding: 0;
 }
 
 // main background
 .wrapper {
-
   position: relative;
   background-attachment: fixed;
   margin: 0;
@@ -127,26 +135,27 @@ h1{
     height: 100%;
     // overflow: hidden;
   }
-  .logo {           // MLH logo
-        display:block;
-        max-width:100px;
-        min-width:60px;
-        position:fixed;
-        top:0;
-        margin-top: 50px;
-        width:8%;
-        z-index:10000;
-        img {
-            padding: 0;
-            left: 50px;
-        }
-        @media screen and (min-width: 992px){
-            img {
-                padding-left: 30px;
-            }
-            right: 50px;
-        }
+  .logo {
+    // MLH logo
+    display: block;
+    max-width: 100px;
+    min-width: 60px;
+    position: fixed;
+    top: 0;
+    margin-top: 50px;
+    width: 8%;
+    z-index: 10000;
+    img {
+      padding: 0;
+      left: 50px;
     }
+    @media screen and (min-width: 992px) {
+      img {
+        padding-left: 30px;
+      }
+      right: 50px;
+    }
+  }
 }
 
 // .page {
@@ -166,53 +175,59 @@ h1{
 }
 
 .homepage {
-    padding-top: 75px;
-    height:100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    @include desktop-and-up {
-        padding-bottom: 25px;
-    }
+  padding-top: 75px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @include desktop-and-up {
+    padding-bottom: 25px;
+  }
 }
-
 
 .btn {
   color: white;
-  background-color: transparent;
+  //background-color: transparent;
   font-size: 1.1em;
   font-weight: 900;
-  font-weight: heavy;
+  //font-weight: heavy;
   padding: 5px 20px;
   text-align: center;
   border-radius: 7px;
-  margin: 0 20px;
-  margin-bottom: 20px;
+  //margin: 0 20px;
+  //margin-bottom: 20px;
   border: 2px solid #72adc4;
-  transition: all 0.300s ease-in;
+  transition: all 0.3s ease-in;
   width: 300px;
   height: 90px;
   margin-bottom: 20px;
-  letter-spacing: 1.3pt; }
-  .btn:hover {
-    background-color: #fbb03a;
-    border: 2px solid #fbb03a;
-    cursor: pointer; }
-  .btn:focus {
-    outline: 0; }
+  letter-spacing: 1.3pt;
+}
+.btn:hover {
+  background-color: #fbb03a;
+  border: 2px solid #fbb03a;
+  cursor: pointer;
+}
+.btn:focus {
+  outline: 0;
+}
 
 .btn-home {
-  border: 1px solid white; }
-  .btn-home:hover {
-    background-color: #72adc4;
-    border: 2px solid white;
-    cursor: pointer; }
+  border: 1px solid white;
+}
+.btn-home:hover {
+  background-color: #72adc4;
+  border: 2px solid white;
+  cursor: pointer;
+}
 
 .btn-active {
   background-color: #fbb03a;
   border: 2px solid #fbb03a;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .btn-sponsor {
-  border: 2px solid #fbb03a; }
+  border: 2px solid #fbb03a;
+}
