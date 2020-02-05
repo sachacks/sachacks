@@ -28,6 +28,9 @@ body {
 a {
   color: $blue;
 }
+img {
+  max-width: 100%;
+}
 
 [class*='col'] {
   padding-left: 10px;
