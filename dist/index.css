@@ -536,7 +536,7 @@
 }
 .cedar { /* mobile */
   will-change: transform;      
-  width:262px;
+  width:292px;
   height:68px   
 }
 .ssc { /* mobile */
@@ -658,7 +658,7 @@
   }
   .cedar {
     will-change: transform;  
-    width:308px;
+    width:344px;
     height:80px 
   }
   .cedar:hover {
