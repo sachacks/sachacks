@@ -541,8 +541,8 @@
 }
 .ssc { /* mobile */
   will-change: transform;      
-  width:94px;
-  height:68px          
+  width:310px;
+  height:60px          
 }
 .coe { /* mobile */
   will-change: transform;      
@@ -666,8 +666,8 @@
   }    
   .ssc {
     will-change: transform;       
-    width:210px;
-    height:130px  
+    width:370px;
+    height:70px  
   }
   .ssc:hover {
     opacity:0.9;       
