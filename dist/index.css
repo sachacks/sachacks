@@ -594,6 +594,11 @@
   width:108px;
   height:80px  
 }
+.freecodecamp { /* mobile */
+  will-change: transform;      
+  width:107px;
+  height:80px  
+}
 .sdc { /* mobile */
   will-change: transform;      
   width:73px;
@@ -751,6 +756,14 @@
     height:150px   
   }
   .hackerlab:hover {
+    opacity:0.9;       
+  }
+  .freecodecamp { 
+    will-change: transform;       
+    width:200px;
+    height:150px   
+  }
+  .freecodecamp:hover {
     opacity:0.9;       
   }
    .sdc {
