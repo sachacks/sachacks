@@ -37,19 +37,19 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // schedule changing
-// btn1.addEventListener('click', () => {
-//     if(table1.classList.contains("tb-inactive")) {
-//         tb_switch_active(btn1, table1);
-//         tb_switch_inactive(btn2, table2);
-//     }
-// });
+btn1.addEventListener('click', () => {
+    if(table1.classList.contains("tb-inactive")) {
+        tb_switch_active(btn1, table1);
+        tb_switch_inactive(btn2, table2);
+    }
+});
 
-// btn2.addEventListener('click', () => {
-//     if(table2.classList.contains("tb-inactive")) {
-//         tb_switch_active(btn2, table2);
-//         tb_switch_inactive(btn1, table1);
-//     }
-// });
+btn2.addEventListener('click', () => {
+    if(table2.classList.contains("tb-inactive")) {
+        tb_switch_active(btn2, table2);
+        tb_switch_inactive(btn1, table1);
+    }
+});
 
 function tb_switch_active(btn, table) {
   table.classList.add('tb-active');
@@ -128,10 +128,9 @@ function tb_switch_inactive(btn, table) {
 //     carousel.activate(); // activate schedule box when user click on schedule page
 //   }
 // })
-
 particlesJS('particles', {
-  particles: {
-    number: {
+    particles: {
+number: {
       value: 160,
       density: {
         enable: true,
