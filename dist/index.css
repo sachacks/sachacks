@@ -544,6 +544,11 @@
   width:310px;
   height:60px          
 }
+.ibm { /* mobile */
+  will-change: transform;      
+  width:170px;
+  height:68px      
+}
 .coe { /* mobile */
   will-change: transform;      
   width:282px;
@@ -594,7 +599,7 @@
   width:108px;
   height:80px  
 }
-.freecodecamp { /* mobile */
+.freecodecamp{ /* mobile */
   will-change: transform;      
   width:107px;
   height:80px  
@@ -677,14 +682,22 @@
   .ssc:hover {
     opacity:0.9;       
   }    
-  .coe {
+  .ibm {
+    will-change: transform;        
+    width:200px;
+    height:80px;   
+  }
+  .ibm:hover {
+    opacity:0.9;       
+  }
+  coe {
     will-change: transform;        
     width:320px;
     height:80px;   
   }
   .coe:hover {
     opacity:0.9;       
-  }
+  }  
   .stickermule {
     will-change: transform;       
     width:270px;    
