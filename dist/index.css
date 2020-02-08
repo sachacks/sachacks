@@ -1068,7 +1068,7 @@ svg {
 }
 
 
-
+/*
 @keyframes shimmy {
   0% {
     transform: translate(0, 0);    
@@ -1077,3 +1077,4 @@ svg {
     transform: translate(20px, 25px);
   }
 }    
+*/
