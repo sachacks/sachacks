@@ -1069,7 +1069,7 @@ svg {
 
 
 /*
-@keyframes shimmy {
+@keyframes ship_shimmy {
   0% {
     transform: translate(0, 0);    
   }
@@ -1078,3 +1078,22 @@ svg {
   }
 }    
 */
+
+@keyframes blue_shimmy {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(20px, 25px);
+  }
+}    
+
+
+@keyframes grey_shimmy {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(-10px, 5px);
+  }
+}    
