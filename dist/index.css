@@ -523,121 +523,121 @@
   will-change: transform;        
   width:220px;
   height:250px;    
-  margin: 10px 5px 10px 5px;        
+  margin: 30px 5px 30px 5px;        
 }
 .allegiant { /* mobile */
   will-change: transform;   
   width:135px;
   height:100px; 
-  margin: 10px 5px 10px 5px;     
+  margin: 30px 5px 30px 5px;     
 }
 .citris { /* mobile */
   will-change: transform;      
   width:300px;
   height:68px; 
-  margin: 10px 5px 10px 5px;         
+  margin: 30px 5px 30px 5px;         
 }
 .cedar { /* mobile */
   will-change: transform;      
   width:292px;
   height:68px; 
-  margin: 10px 5px 10px 5px;      
+  margin: 30px 5px 30px 5px;      
 }
 .ssc { /* mobile */
   will-change: transform;      
   width:310px;
   height:60px; 
-  margin: 10px 5px 10px 5px;           
+  margin: 30px 5px 30px 5px;           
 }
 .ibm { /* mobile */
   will-change: transform;      
   width:170px;
   height:68px; 
-  margin: 10px 5px 10px 5px;          
+  margin: 30px 5px 30px 5px;          
 }
 .coe { /* mobile */
   will-change: transform;      
   width:282px;
   height:68px; 
-  margin: 10px 5px 10px 5px;         
+  margin: 30px 5px 30px 5px;         
 }
 .stickermule { /* mobile */
   will-change: transform;       
   width:270px;    
   height:55px; 
-  margin: 10px 5px 10px 5px;     
+  margin: 30px 5px 30px 5px;     
 }
 .sketch { /* mobile */
   will-change: transform;     
   width:176px;
   height:70px; 
-  margin: 10px 5px 10px 5px;           
+  margin: 30px 5px 30px 5px;           
 }
 .git { /* mobile */
   will-change: transform;
   width: 133px;
   height: 50px; 
-  margin: 10px 5px 10px 5px;    
+  margin: 30px 5px 30px 5px;    
 }
 .bobos { /* mobile */
   will-change: transform;      
   width:120px;
   height:40px; 
-  margin: 10px 5px 10px 5px;        
+  margin: 30px 5px 30px 5px;        
 }
 .yerba { /* mobile */
   will-change: transform;      
   width:110px;
   height:60px; 
-  margin: 10px 5px 10px 5px;       
+  margin: 30px 5px 30px 5px;       
 }
 .zesttea { /* mobile */
   will-change: transform;      
   width:188px;
   height:50px; 
-  margin: 10px 5px 10px 5px;     
+  margin: 30px 5px 30px 5px;     
 }
 .mlh { /* mobile */
   will-change: transform;      
   width:180px;
   height:76px; 
-  margin: 10px 5px 10px 5px;      
+  margin: 30px 5px 30px 5px;      
 }
 .hackclub { /* mobile */
   will-change: transform;      
   width:239x;
   height:70px; 
-  margin: 10px 5px 10px 5px;      
+  margin: 30px 5px 30px 5px;      
 }
 .hackerlab { /* mobile */
   will-change: transform;      
   width:108px;
   height:80px; 
-  margin: 10px 5px 10px 5px;      
+  margin: 30px 5px 30px 5px;      
 }
 .freecodecamp{ /* mobile */
   will-change: transform;      
   width:107px;
   height:80px; 
-  margin: 10px 5px 10px 5px;     
+  margin: 30px 5px 30px 5px;     
 }
 .sdc { /* mobile */
   will-change: transform;      
   width:73px;
   height:50px; 
-  margin: 10px 5px 10px 5px;    
+  margin: 30px 5px 30px 5px;    
 }    
 .acm { /* mobile */
   will-change: transform;      
   width:65px;
   height:50px; 
-  margin: 10px 5px 10px 5px;          
+  margin: 30px 5px 30px 5px;          
 }
 .wics { /* mobile */
   will-change: transform;      
   width:113px;
   height:50px; 
-  margin: 10px 5px 10px 5px;    
+  margin: 30px 5px 30px 5px;    
 }  
 @media screen and (min-width: 1024px) { /* for iPad and bigger */
   .sponsor h1 {
