@@ -982,7 +982,7 @@ h1 {
 }
 @media screen and (min-width: 1025px) { /* landing page rocket and planets appear in sizes bigger than iPad Pro */
   .homepage {
-    /*background: url(../images/spaceship+2planets2.png) no-repeat center center scroll;*/
+    background: url(../images/spaceship+2planets2.png) no-repeat center center scroll;
     -webkit-background-size: cover; 
     -moz-background-size: cover;
     background-size: cover;
@@ -1056,14 +1056,17 @@ h1 {
 }
 
 svg {
-   position: absolute;
+   /*position: absolute;*/
     display: none;
 }
 
 @media screen and (min-width: 1025px) { /* screen size bigger than iPad Pro */
     svg {
-       position: absolute;
-       display: initial;
+       /*position: absolute;*/
+       /*position: fixed;*/
+       /*position: absolute; */
+       /*display: sticky;*/
+        display: none;
     }
 }
 
@@ -1078,7 +1081,7 @@ svg {
   }
 }    
 */
-
+/*
 @keyframes blue_shimmy {
   0% {
     transform: translate(0, 0);    
@@ -1097,3 +1100,4 @@ svg {
     transform: translate(-10px, 5px);
   }
 }    
+*/
