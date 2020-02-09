@@ -7,6 +7,7 @@
 // scss
 import 'animate.css';
 import '../scss/index.scss';
+import '../scss/day.scss';
 
 // search the DOM
 // const wrapper = document.querySelector('.wrapper');
@@ -25,14 +26,14 @@ const table2 = document.querySelector('.tb-2');
 
 // smooth scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth',
-            block: 'start',
-        });
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
     });
+  });
 });
 
 // schedule changing
@@ -50,17 +51,17 @@ btn2.addEventListener('click', () => {
     }
 });
 
-function tb_switch_active(btn, table){
-    table.classList.add("tb-active");
-    table.classList.remove("tb-inactive");
-    btn.classList.add("btn-active");
-    btn.classList.remove("btn-inactive");
+function tb_switch_active(btn, table) {
+  table.classList.add('tb-active');
+  table.classList.remove('tb-inactive');
+  btn.classList.add('btn-active');
+  btn.classList.remove('btn-inactive');
 }
-function tb_switch_inactive(btn, table){
-    table.classList.add("tb-inactive");
-    table.classList.remove("tb-active");
-    btn.classList.add("btn-inactive");
-    btn.classList.remove("btn-active");
+function tb_switch_inactive(btn, table) {
+  table.classList.add('tb-inactive');
+  table.classList.remove('tb-active');
+  btn.classList.add('btn-inactive');
+  btn.classList.remove('btn-active');
 }
 
 // hiddenMenu.addEventListener('click', () => {
