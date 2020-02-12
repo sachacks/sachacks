@@ -879,6 +879,7 @@ body {
   /*                                  bottm                       top    */
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
+    z-index:-1;
 }
 
 @keyframes gradient {
@@ -982,7 +983,7 @@ h1 {
 }
 @media screen and (min-width: 1025px) { /* landing page rocket and planets appear in sizes bigger than iPad Pro */
   .homepage {
-    /*background: url(../images/spaceship+2planets2.png) no-repeat center center scroll;*/
+    background: url(../images/spaceship+2planets2.png) no-repeat center center scroll;
     -webkit-background-size: cover; 
     -moz-background-size: cover;
     background-size: cover;
@@ -1056,16 +1057,17 @@ h1 {
     text-align: left; /* move sachacks logo on landing page to left */
   }
 }
-
+/*
 .rocket-planets {
     display: none;
 }
 
 @media screen and (min-width: 1025px) { /* screen size bigger than iPad Pro */
-    .rocket-planets {
-      position: absolute;
+   /* .rocket-planets {
+
+      position: relative;
       display: initial;
-      z-index: -1;
+      z-index:7;
     }
 }
 
