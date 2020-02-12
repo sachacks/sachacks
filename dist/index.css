@@ -1057,11 +1057,11 @@ h1 {
     text-align: left; /* move sachacks logo on landing page to left */
   }
 }
-/*
+
 .rocket-planets {
     display: none;
 }
-
+/*
 @media screen and (min-width: 1025px) { /* screen size bigger than iPad Pro */
    /* .rocket-planets {
 
