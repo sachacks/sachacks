@@ -879,6 +879,7 @@ body {
   /*                                  bottm                       top    */
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
+    z-index:-1;
 }
 
 @keyframes gradient {
@@ -982,7 +983,7 @@ h1 {
 }
 @media screen and (min-width: 1025px) { /* landing page rocket and planets appear in sizes bigger than iPad Pro */
   .homepage {
-    /*background: url(../images/spaceship+2planets2.png) no-repeat center center scroll;*/
+    background: url(../images/spaceship+2planets2.png) no-repeat center center scroll;
     -webkit-background-size: cover; 
     -moz-background-size: cover;
     background-size: cover;
@@ -1012,6 +1013,8 @@ h1 {
     width: 300px;
     height: 90px;  
     margin-left: 5%;
+      position: relative;
+
     }
 }
 
@@ -1059,11 +1062,13 @@ h1 {
     display: none;
     z-index: -1;
 }
-
+/*
 @media screen and (min-width: 1025px) { /* screen size bigger than iPad Pro */
-    .rocket-planets {
-      position: absolute;
+   /* .rocket-planets {
+
+      position: relative;
       display: initial;
+      z-index:7;
     }
 }
 
@@ -1096,5 +1101,5 @@ transform: translate(0, 0);
   100% {
     transform: translate(-10px, 5px);
   }
-}    
+}   
   
