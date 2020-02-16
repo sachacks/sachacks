@@ -1057,6 +1057,7 @@ h1 {
 
 .rocket-planets {
     display: none;
+    z-index: -1;
 }
 
 @media screen and (min-width: 1025px) { /* screen size bigger than iPad Pro */
