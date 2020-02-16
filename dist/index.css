@@ -983,7 +983,7 @@ h1 {
 }
 @media screen and (min-width: 1025px) { /* landing page rocket and planets appear in sizes bigger than iPad Pro */
   .homepage {
-    background: url(../images/spaceship+2planets2.png) no-repeat center center scroll;
+   /* background: url(../images/spaceship+2planets2.png) no-repeat center center scroll;*/
     -webkit-background-size: cover; 
     -moz-background-size: cover;
     background-size: cover;
@@ -1062,16 +1062,13 @@ h1 {
     display: none;
     z-index: -1;
 }
-/*
-@media screen and (min-width: 1025px) { /* screen size bigger than iPad Pro */
-   /* .rocket-planets {
 
-      position: relative;
+@media screen and (min-width: 1025px) { /* screen size bigger than iPad Pro */
+    .rocket-planets {
+      position: absolute;
       display: initial;
-      z-index:7;
     }
 }
-
 /*
 @keyframes ship_shimmy {
   0% {
