@@ -1104,6 +1104,13 @@ transform: translate(0, 0);
   text-align: left;
   color: white;
 }
+.schedule h1 {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
 
 td.t-time {
     color:#fbb03a; 
@@ -1120,6 +1127,7 @@ td.t-time {
       font-size: 2em;
       font-weight: 500;
       margin-bottom: 10px; 
+      margin-top:20px;
 }
     .schedule .schedule-header h3 {
       /*color: white;*/
@@ -1186,12 +1194,11 @@ td.t-time {
     display: none; 
 }
 
-
   @media screen and (min-width: 1024px) {
     .schedule .tb-active {
       /*font-size: 1em; */
       }
-      }
+      
       .schedule .tb-active td:nth-child(3) {
         display: block; 
       }
@@ -1212,3 +1219,4 @@ td.t-time {
         margin-bottom: 25px; 
       } 
 }
+
