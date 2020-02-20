@@ -363,7 +363,7 @@
 
 @media screen and (max-width: 1024px) {
   .live-feed-1 {
-    display: none; } }
+    /*display: none;*/ } }
 
 .live-feed-1 .live-feed-items {
   display: flex;
