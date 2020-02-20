@@ -417,7 +417,7 @@ h1 {
       height: 100%; } }
 
 .wrapper .logo {
-  display: block;
+  display: none;
   max-width: 100px;
   min-width: 60px;
   position: fixed;
