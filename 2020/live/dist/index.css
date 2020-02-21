@@ -491,7 +491,6 @@ h1 {
     color: white;
     background-color: #002561;
     font-size: 1.0em;
-    width: 95%;
     padding: 5px 20px;
     text-align: center;
     margin: 0 20px;
@@ -499,7 +498,8 @@ h1 {
     transition: all 0.300s ease-in;
     height: 75px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.08), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
-    border-radius: 7px; }
+    border-radius: 7px; 
+    width: 95%; /* stupid brackets wont work for this */}
     .map-button .btn-map:focus {
       outline: 0; }
 
@@ -591,4 +591,21 @@ h1 {
 .get-featured {
   padding: 0rem 2rem;
   color: white;
+}
+
+/* particles control */
+.particles-js-canvas-el {
+  position: absolute; /*fixed; whole page */
+  z-index: -1;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 110vh !important; 
+  overflow:auto; 
+  width: 100vw;
+  height: 100vh;
+  clear:none;
+  padding:0;
+  margin:0;
+  will-change: transform;    
 }
