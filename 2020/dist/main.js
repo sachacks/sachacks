@@ -32,6 +32,6 @@ function timer(date) {
 }
 
 $(document).ready(function () {
-    var hackEnd = '02/23/2020 02:00:00 PM';
+    var hackEnd = '02/23/2020 10:30:00 AM';
     timer(hackEnd);
 });
