@@ -17,3 +17,28 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
+
+### Looking for something?
+```
+Home  
+|   README.md | package.json
+└─── public
+|       |
+|       └─── index.html
+|   
+└─── src
+      |
+      └─── index.js | index.css | App.js | App.css
+      |
+      └─── pages
+            |
+            └─── contact | heroPage | resources | schedule
+      |
+      └─── shared
+              |
+              └─── Navigation | SideDrawer | Copyright
+      |
+      └─── components
+                |
+                └─── HeroPage
+```
