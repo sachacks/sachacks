@@ -1,0 +1,9 @@
+.hero-page {
+    height: 200%;
+    width: 100%;
+    background-image: url("/final.png"), url('/background.png') ;
+    background-position: 0px 300px, -230px 0px;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 100% auto, 120% auto;
+    font-family: 'Puritan', sans-serif;
+}

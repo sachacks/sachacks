@@ -1,0 +1,55 @@
+.about {
+    width: 600px;
+    margin-left: 7%;
+    color: white;
+}
+
+.sachacks {
+    font-size: 70px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+.motto {
+    font-size: 40px;
+    font-weight: 600;
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.motto .red {
+    color: #F27672;
+    padding-right: 10px;
+}
+
+.motto .green {
+    padding-right: 10px;
+}
+
+.description {
+    width: 100%;
+    font-size: 17pt;
+    line-height: 30pt;
+}
+
+.map-buttons {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.map-button {
+    height: 50px;
+    width: 170px;
+    background-color: #ffffff;
+    margin: 0px 20px 0px 0px;
+    border: 2px solid #DCDCDC;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
