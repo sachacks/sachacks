@@ -1,5 +1,5 @@
 .hero-page {
-    height: 200%;
+    height: calc(100vw * 0.7052 + 300px);
     width: 100%;
     background-image: url("/final.png"), url('/background.png') ;
     background-position: 0px 300px, -230px 0px;

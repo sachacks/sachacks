@@ -1,0 +1,53 @@
+.resources-page {
+    height: calc(100vw - 100px);
+    width: 100vw;
+    background-image: url('/cropped.png'), linear-gradient(to bottom,purple, yellow);
+    background-repeat: no-repeat;
+    background-position: 0px -100px;
+    background-size: 100% auto;
+    font-family: 'Puritan', sans-serif;
+}
+
+.shadow-cover {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.shadow-cover h1 {
+    color: white;
+    font-size: 45pt;
+    text-align: center;
+}
+
+.resources-content {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.horz-content {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vert-content {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    font-size: 18pt;
+}
+
+.vert-content li {
+    font-size: 14pt;
+}
