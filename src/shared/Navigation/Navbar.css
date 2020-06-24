@@ -1,3 +1,9 @@
+.logo {
+    height: 50%;
+    width: 4%;
+    background-color: white;
+}
+
 .nav {
     display: flex;
     flex-direction: row;
@@ -6,6 +12,7 @@
     background-color: transparent;
     height: 130px;
     width: 100%;
+    font-family: 'Puritan', sans-serif;
 }
 
 .nav a {
@@ -18,6 +25,10 @@
 
 .space {
     width: 4%;
+}
+
+.space-between {
+    flex: 1;
 }
 
 .schedule, .apply {

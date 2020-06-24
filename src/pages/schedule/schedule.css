@@ -1,0 +1,133 @@
+.schedule-page {
+    height: 150vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Puritan', sans-serif;
+}
+
+.schedule-map {
+    height: 80%;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sche-side, .map-side {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sche-side {
+    background-image: linear-gradient(to bottom,white, white, lightgray);
+}
+
+.sche-side h1, .map-side h1 {
+    padding: 40px 0px 20px 0px;
+    font-size: 30pt;
+}
+
+.sche-date {
+    height: 8%;
+    width: 80%;
+    background-color: lightgray;
+    border: 2px solid gray;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.first-day, .second-day {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.day {
+    color: gray;
+    font-size: 18pt;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.active {
+    color: white;
+    height: 70%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+    border-radius: 35px;
+}
+
+.events {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.event-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.event {
+    height: 12%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15pt;
+}
+
+.event-active {
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+}
+
+.time {
+    width: 18%;
+    text-align: center;
+}
+
+.todo {
+    width: 25%;
+    text-align: center;
+}
+
+.detail {
+    width: 57%;
+    text-align: start;
+    padding-right: 10px;
+}
+
+.map-container {
+    height: 70%;
+    width: 80%;
+    background-color: lightgray;
+    border-radius: 30px;
+}

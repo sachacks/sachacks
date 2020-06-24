@@ -3,15 +3,21 @@ import './hero.css';
 
 import Navbar from '../../shared/Navigation/Navbar';
 import About from '../../components/HeroPage/About';
-import Copyright from '../../shared/Copyright/Copyright'
+import Faq from '../../components/HeroPage/Faq';
+import Sponsors from '../../components/HeroPage/Sponsors'
+import Copyright from '../../shared/Copyright/Copyright';
 
 const hero = () => {
     return (
-        <div className='hero-page'>
-            <Navbar />
-            <About />
+        <React.Fragment>
+            <div className='hero-page'>
+                <Navbar />
+                <About />
+            </div>
+            <Faq />
+            <Sponsors />
             <Copyright />
-        </div>
+        </React.Fragment>
     );
 };
 
