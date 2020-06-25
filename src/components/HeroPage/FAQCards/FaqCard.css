@@ -7,10 +7,11 @@
 
 .ques {
     cursor: pointer;
+    font-size: calc(100vw * .01591089896 + 0pt);
 }
 
 .ans {
-    font-size: 17pt;
+    font-size: calc(100vw * 0.01352426412 + 0pt);
     padding: 15px 0px;
 }
 

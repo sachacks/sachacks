@@ -5,13 +5,13 @@
 }
 
 .sachacks {
-    font-size: 70px;
+    font-size: calc(100vw * 0.04697986577 + 0pt);
     font-weight: 700;
     margin: 20px 0px;
 }
 
 .motto {
-    font-size: 40px;
+    font-size: calc(100vw * 0.02013422818 + 5pt);
     font-weight: 600;
     width: 100%;
     margin: 15px 0px;
@@ -28,7 +28,7 @@
 
 .description {
     width: 100%;
-    font-size: 17pt;
+    font-size: calc(100vw * 0.01140939597 + 5pt);
     line-height: 30pt;
 }
 

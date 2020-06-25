@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className='nav'>
             <Link className='logo' to='/'></Link>
             <div className='space-between'></div>
-            <Link className='schedule' to='/schedule'>Schedule <GoTriangleDown fill='white' size='20px' style={{marginLeft: '5px'}} /></Link>
+            <Link className='schedule' to='/schedule'>Schedule </Link>
             <Link to='/resources'>Resources</Link>
             <Link to='/contact'>Contact</Link>
             <Link className='apply' to='/apply'>Apply <GoTriangleDown fill='white' size='20px' style={{marginLeft: '5px'}} /></Link>
