@@ -41,8 +41,9 @@
 }
 
 .map-button {
-    height: 50px;
-    width: 170px;
+    height: calc(100vw * 0.027 + 3px);
+    width: calc(100vw * 0.118 + 0px);
+    font-size: calc(100vw * 0.01 + 3px);
     background-color: #ffffff;
     margin: 0px 20px 0px 0px;
     border: 2px solid #DCDCDC;
@@ -54,3 +55,4 @@
     color: #000000;
     cursor: pointer;
 }
+

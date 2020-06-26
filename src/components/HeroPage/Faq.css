@@ -32,3 +32,9 @@
     align-items: center;
     justify-content: flex-start;
 }
+
+@media (max-width: 1024px) {
+    .faq {
+        height: 100vh;
+    }
+}

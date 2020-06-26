@@ -20,6 +20,7 @@
 
 .topic h4 {
     margin: 0;
+    font-size: calc(100vw * 0.017 + 4px);
 }
 
 @keyframes slideDown {

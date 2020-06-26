@@ -18,9 +18,9 @@
 .nav a {
     text-decoration: none;
     color: white;
-    font-size: 24pt;
+    font-size: calc(100vw * 0.0192 + 2pt);
     font-weight: 400;
-    margin: 30px;
+    margin: calc(100vw * 0.024);
 }
 
 .space {

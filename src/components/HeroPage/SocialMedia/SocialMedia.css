@@ -6,6 +6,11 @@
 }
 
 .media-button {
-    margin: 20px 20px 0px 10px;
+    margin: calc(100vw * 0.01428) calc(100vw * 0.01428) 0px 10px;
     cursor: pointer;
+}
+
+.media-button svg {
+    height: calc(100vw * 0.02 + 5px);
+    width: calc(100vw * 0.02 + 5px);
 }

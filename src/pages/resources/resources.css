@@ -1,22 +1,22 @@
 .resources-page {
-    height: calc(100vw - 100px);
+    height: calc(150vh);
     width: 100vw;
     background-image: url('/cropped.png'), linear-gradient(to bottom,purple, yellow);
     background-repeat: no-repeat;
-    background-position: 0px -100px;
-    background-size: 100% auto;
+    background-position: 0px bottom, 100% 100%;
+    background-size: 100% auto, 100% 100%;
     font-family: 'Puritan', sans-serif;
 }
 
 .shadow-cover {
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .shadow-cover h1 {
     color: white;
-    font-size: 45pt;
+    font-size: calc(100vw * 0.032 + 5px);
     text-align: center;
 }
 
@@ -50,4 +50,10 @@
 
 .vert-content li {
     font-size: 14pt;
+}
+
+@media (min-height: 900px) {
+    .resources-page {
+        height: 100vh;
+    }
 }
