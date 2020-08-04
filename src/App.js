@@ -18,9 +18,6 @@ function App () {
           <Route path="/resources">
             <Resources />
           </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
           <Route path='/'>
             <Hero />
           </Route>
