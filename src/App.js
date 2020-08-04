@@ -5,7 +5,6 @@ import Hero from './pages/heroPage/hero';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Schedule from './pages/schedule/schedule';
 import Resources from './pages/resources/resources';
-import Contact from './pages/contact/contact';
 
 function App () {
   return (
