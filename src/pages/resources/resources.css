@@ -1,10 +1,9 @@
 .resources-page {
-    height: calc(150vh);
+    height: calc(100vw * 0.86458333333 + 0px);
     width: 100vw;
-    background-image: url('/cropped.png'), linear-gradient(to bottom,purple, yellow);
-    background-repeat: no-repeat;
-    background-position: 0px bottom, 100% 100%;
-    background-size: 100% auto, 100% 100%;
+    background-image: url('/cropped.png'), url("/cover.png");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain;
     font-family: 'Puritan', sans-serif;
 }
 
@@ -52,8 +51,8 @@
     font-size: 14pt;
 }
 
-@media (min-height: 900px) {
+/* @media (min-height: 900px) {
     .resources-page {
         height: 100vh;
     }
-}
+} */

@@ -10,10 +10,10 @@ const FaqCard = ( props ) => {
 
     return (
         <div className='question'>
-            <div className='ques' onClick={ () => setOpen( !open ) }>
+            <div className='ques' style={ !open ? { color: '#7BDDDE', transition: '0.5s' } : { color: '#fff', transition: '0.5s' } } onClick={ () => setOpen( !open ) }>
                 { q } <GoTriangleDown fill='white' size='20px' style={ !open ? { marginLeft: '5px', transform: 'rotate(180deg)', transition: '0.5s' } : { marginLeft: '5px', transition: '0.5s' } } />
             </div>
-            <div className='ans' style={ !open ? { animation: 'slideDown 0.5s ease-in' } : { display: 'none' } }>{a}</div>
+            <div className='ans' style={ !open ? { animation: 'slideDown 0.5s ease-in' } : { display: 'none' } }>{ a }</div>
             <div className='line'></div>
         </div>
     );

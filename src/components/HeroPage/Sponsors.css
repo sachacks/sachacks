@@ -1,4 +1,32 @@
 .sponsors {
-    height: 100vh;
+    height: auto;
     width: 100vw;
+    background-color: #F8F8F8;
+    font-family: 'Puritan', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sponsors h1 {
+    width: 100%;
+    text-align: start;
+    font-size: 50px;
+    padding: 0 0 0 calc(100vw * 0.0672 + 10px);
+    margin: calc(100vw * 0.06720430107 + 0px) 0px calc(100vw * 0.04704301075 + 0px) calc(100vw * 0.08736559139 + 0px);
+}
+
+.sp-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px 0px 50px 0px;
+}
+
+.sp-space {
+    width: 100%;
+    height: 80px;
 }

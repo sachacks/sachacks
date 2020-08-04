@@ -1,0 +1,24 @@
+.elem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.elem-pic {
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    background-color: lightgray;
+    margin: 0px 0px 40px 0px;
+}
+
+.elem-name {
+    font-size: 29px;
+    margin: 0px 0px 20px 0px;
+}
+
+.elem-title {
+    font-size: 20px;
+}

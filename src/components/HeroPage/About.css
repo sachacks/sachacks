@@ -23,7 +23,12 @@
 }
 
 .motto .green {
+    color: #7BDDDE;
     padding-right: 10px;
+}
+
+.motto .blue {
+    color: #8995FF;
 }
 
 .description {

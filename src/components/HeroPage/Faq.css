@@ -1,8 +1,10 @@
 .faq {
-    height: 120vh;
+    height: calc(100vw * 0.80625 + 10px);
     width: 100vw;
     font-family: 'Puritan', sans-serif;
-    background-color: #253A81;
+    background-image: url("/Faq.png");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 100% auto, auto 100%;
     color: white;
     display: flex;
     flex-direction: column;

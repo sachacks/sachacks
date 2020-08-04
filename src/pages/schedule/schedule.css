@@ -1,7 +1,9 @@
 .schedule-page {
-    height: 150vh;
+    height: calc(100vw * 0.92 + 0px);
     width: 100vw;
-    background-color: black;
+    background-image: url("/schedule.png");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +29,8 @@
 }
 
 .sche-side {
-    background-image: linear-gradient(to bottom,white, white, lightgray);
+    background-image: linear-gradient(to bottom,white, white, #EAEAEA);
+    border-radius: 10px;
 }
 
 .sche-side h1, .map-side h1 {
@@ -38,8 +41,8 @@
 .sche-date {
     height: 10%;
     width: 80%;
-    background-color: lightgray;
-    border: 2px solid gray;
+    background-color: #EAEAEA;
+    border: 2px solid #E5E5E5;
     border-radius: 30px;
     display: flex;
     flex-direction: row;
@@ -57,7 +60,7 @@
 }
 
 .day {
-    color: gray;
+    color: #A5A5A5;
     font-size: calc(100vw * 0.016);
     font-weight: 400;
     cursor: pointer;
@@ -70,7 +73,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: purple;
+    background-color: #2F009B;
     border-radius: 35px;
 }
 
@@ -104,7 +107,7 @@
 }
 
 .event-active {
-    background-color: purple;
+    background-color: #2F009B;
     color: white;
     border-radius: 10px;
 }
@@ -128,6 +131,6 @@
 .map-container {
     height: 70%;
     width: 80%;
-    background-color: lightgray;
+    background-color: #E4E4E4;
     border-radius: 30px;
 }
