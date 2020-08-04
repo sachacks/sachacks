@@ -1,8 +1,8 @@
 .faq {
-    height: calc(100vw * 0.80625 + 10px);
+    height: calc(100vw * 1.0125 + 0px);
     width: 100vw;
     font-family: 'Puritan', sans-serif;
-    background-image: url("/Faq.png");
+    background-image: url("/faq.png");
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: 100% auto, auto 100%;
     color: white;

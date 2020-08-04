@@ -1,5 +1,5 @@
 .schedule-page {
-    height: calc(100vw * 0.92 + 0px);
+    height: calc(100vw * 0.92430555555 + 0px);
     width: 100vw;
     background-image: url("/schedule.png");
     background-repeat: no-repeat; /* Do not repeat the image */

@@ -10,7 +10,7 @@ const Navbar = () => {
             <div className='space-between'></div>
             <Link className='schedule' to='/schedule'>Schedule </Link>
             <Link to='/resources'>Resources</Link>
-            <Link to='/contact'>Contact</Link>
+            <a href='mailto: team@sachacks.io'>Contact</a>
             <Link className='apply' to='/apply'>Apply <GoTriangleDown fill='white' size='20px' style={{marginLeft: '5px'}} /></Link>
             <div className='space'></div>
         </div>
