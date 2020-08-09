@@ -7,9 +7,9 @@
 }
 
 .elem-pic {
-    height: 150px;
-    width: 150px;
-    border-radius: 150px;
+    height: calc(100vw * 0.12048 + 0px);
+    width: calc(100vw * 0.12048 + 0px);
+    border-radius: calc(100vw * 0.12048 + 0px);
     background-color: lightgray;
     margin: 0px 0px 40px 0px;
 }

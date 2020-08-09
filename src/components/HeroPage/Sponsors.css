@@ -12,7 +12,7 @@
 .sponsors h1 {
     width: 100%;
     text-align: start;
-    font-size: 50px;
+    font-size: calc(100vw * 0.03579952267 + 0pt);
     padding: 0 0 0 calc(100vw * 0.0672 + 10px);
     margin: calc(100vw * 0.06720430107 + 0px) 0px calc(100vw * 0.04704301075 + 0px) calc(100vw * 0.08736559139 + 0px);
 }

@@ -28,15 +28,17 @@ const resources = () => {
             <div className='resources-page'>
                 <div className='shadow-cover'>
                     <Navbar />
-                    <h1>Resources</h1>
-                    <div className='resources-content'>
-                        <div className='horz-content'>
-                            <ResourcesCard content={ content1 } />
-                            <ResourcesCard content={ content2 } />
-                        </div>
-                        <div className='horz-content'>
-                            <ResourcesCard content={ content3 } />
-                            <ResourcesCard content={ content4 } />
+                    <div className='resources-main'>
+                        <h1>Resources</h1>
+                        <div className='resources-content'>
+                            <div className='horz-content'>
+                                <ResourcesCard content={ content1 } />
+                                <ResourcesCard content={ content2 } />
+                            </div>
+                            <div className='horz-content'>
+                                <ResourcesCard content={ content3 } />
+                                <ResourcesCard content={ content4 } />
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -19,6 +19,11 @@
     text-align: center;
 }
 
+.resources-main {
+    position: relative;
+    top: calc(100vw * 0.0801 * -1 + 0px);
+}
+
 .resources-content {
     height: 80%;
     width: 100%;

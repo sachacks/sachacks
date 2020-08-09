@@ -6,7 +6,6 @@ import Cards from './FAQCards/FaqCard';
 
 const Faq = () => {
 
-
     return (
         <div className='faq'>
             <h1>Frequently Asked Question</h1>

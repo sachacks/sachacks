@@ -2,6 +2,9 @@
     width: 600px;
     margin-left: 7%;
     color: white;
+    z-index: 1;
+    position: relative;
+    top: calc(100vw * 0.0801 * -1 + 0px);
 }
 
 .sachacks {
@@ -32,9 +35,9 @@
 }
 
 .description {
-    width: 100%;
+    width: calc(100vw * 0.4497992 + 0px);
     font-size: calc(100vw * 0.01140939597 + 5pt);
-    line-height: 30pt;
+    line-height: calc(100vw * 0.024096 + 0pt);
 }
 
 .map-buttons {

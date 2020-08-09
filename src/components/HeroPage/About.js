@@ -13,10 +13,10 @@ const About = () => {
                 <span className='blue'>Launch.</span>
             </h2>
             <p className='description'>SacHacks is the first major intercollegiate hackathon in the Sacramento, California area. Our passion is to cultivate the untapped potential of those in Sac by launching their ideas into action during a 24-hour hackathon. </p>
-            <div className='map-buttons'>
+            {/* <div className='map-buttons'>
                 <div className='map-button'>Google Maps</div>
                 <div className='map-button'>Apple Maps</div>
-            </div>
+            </div> */}
             <SocialMedia />
         </div>
     );

@@ -17,6 +17,8 @@
     border-radius: 10px;
     display: flex;
     flex-direction: row;
+    position: relative;
+    top: calc(100vw * 0.0801 * -1 + 0px);
 }
 
 .sche-side, .map-side {
