@@ -7,7 +7,7 @@ const ResourcesCard = ( props ) => {
     const { topic, list } = props.content;
 
     const listContent = (
-        list.map( item => <li>{ item }</li> )
+        list.map( ( item, index ) => <li key={ index }>{ item }</li> )
     );
 
     const [ open, setOpen ] = useState( { open: true } );
