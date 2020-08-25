@@ -1,59 +1,80 @@
 .resources-page {
-    height: calc(100vw * 0.86458333333 + 0px);
-    width: 100vw;
-    background-image: url('/cropped.png'), url("/cover.png");
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: contain;
-    font-family: 'Puritan', sans-serif;
+  min-height: calc(100vw * 0.86458333333 + 0px);
+  width: 100vw;
+  background-image: url("/cropped.png"), url("/cover.png");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+  font-family: "Puritan", sans-serif;
 }
 
 .shadow-cover {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .shadow-cover h1 {
-    color: white;
-    font-size: calc(100vw * 0.032 + 5px);
-    text-align: center;
+  color: white;
+  font-size: calc(100vw * 0.032 + 5px);
+  text-align: center;
 }
 
 .resources-main {
-    position: relative;
-    top: calc(100vw * 0.0801 * -1 + 0px);
+  position: relative;
+  top: calc(100vw * 0.0801 * -1 + 0px);
 }
 
 .resources-content {
-    height: 80%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .horz-content {
-    height: 50%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .vert-content {
-    height: 100%;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    color: white;
-    font-size: 18pt;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  font-size: 18pt;
 }
 
 .vert-content li {
-    font-size: 14pt;
+  font-size: 14pt;
+}
+
+/* Mobile */
+@media screen and (max-width: 568px) {
+  .resources-page {
+    /* min-height: 100vh; */
+    background-image: none;
+    background: linear-gradient(179.63deg, #0b0122 0.33%, #001241 92.84%);
+  }
+
+  .resources-main {
+    height: initial;
+  }
+  .horz-content {
+    display: block;
+  }
+  .vert-content {
+    width: initial;
+    padding: 30px 0;
+    border-bottom: 3px solid #4f5a81;
+  }
 }
 
 /* @media (min-height: 900px) {
