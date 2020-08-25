@@ -37,11 +37,9 @@
 @media only screen and (max-width: 568px) {
   .open-ul {
     display: block;
-    /* animation: slideDown 0.5s ease-in-out; */
   }
   .close-ul {
     display: none;
-    /* animation: slideUp 0.5s ease-in-out; */
   }
   .topic {
     justify-content: left;
