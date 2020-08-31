@@ -2,6 +2,7 @@ import React from 'react';
 import './hero.css';
 
 import Navbar from '../../shared/Navigation/Navbar';
+import MobileNavBar from '../../shared/MobileNavBar/MobileNavBar'
 import About from '../../components/HeroPage/About';
 import Faq from '../../components/HeroPage/Faq';
 import Speakers from '../../components/HeroPage/Speakers';
@@ -13,6 +14,7 @@ const hero = () => {
         <React.Fragment>
             <div className='hero-page'>
                 <Navbar />
+                <MobileNavBar />
                 <About />
             </div>
             <Faq />

@@ -3,12 +3,14 @@ import './schedule.css';
 
 import Navbar from '../../shared/Navigation/Navbar';
 import Copyright from '../../shared/Copyright/Copyright';
+import MobileNavBar from '../../shared/MobileNavBar/MobileNavBar';
 
 const schedule = () => {
     return (
         <React.Fragment>
             <div className='schedule-page'>
                 <Navbar />
+                <MobileNavBar />
                 <div className='schedule-map'>
                     <div className='sche-side'>
                         <h1>Schedule</h1>

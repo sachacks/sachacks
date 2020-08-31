@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className='nav'>
                 <Link className='logo' to='/'></Link>
                 <div className='space-between'></div>
-                <Link className='schedule' to='/schedule'>Schedule </Link>
+                <Link className='schedule' to='/schedule'>Schedule</Link>
                 <Link to='/resources'>Resources</Link>
                 <a href='mailto: team@sachacks.io'>Contact</a>
                 <div className='apply' onClick={ () => setOpen( !open ) } style={ !open ? { color: '#7BDDDE', transition: '0.5s' } : { color: '#fff', transition: '0.5s' } }>

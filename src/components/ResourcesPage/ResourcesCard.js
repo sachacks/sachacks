@@ -3,31 +3,31 @@ import "./ResourcesCard.css";
 
 import { GoTriangleDown } from "react-icons/go";
 
-const ResourcesCard = (props) => {
+const ResourcesCard = ( props ) => {
   const { topic, list } = props.content;
 
-  const listContent = list.map((item, index) => <li key={index}>{item}</li>);
+  const listContent = list.map( ( item, index ) => <li key={ index }>{ item }</li> );
 
-  const [open, setOpen] = useState(true);
+  const [ open, setOpen ] = useState( true );
   return (
     <div className="vert-content">
-      <div className="topic" onClick={() => setOpen(!open)}>
-        <h4>{topic}</h4>
+      <div className="topic" onClick={ () => setOpen( !open ) }>
+        <h4 style={ !open ? { color: '#7BDDDE' } : { color: 'white' } }>{ topic }</h4>
         <GoTriangleDown
-          fill="white"
+          fill={ !open ? '#7BDDDE' : 'white' }
           size="20px"
           style={
             !open
               ? {
-                  marginLeft: "10px",
-                  transform: "rotate(180deg)",
-                  transition: "0.5s",
-                }
+                marginLeft: "10px",
+                transform: "rotate(180deg)",
+                transition: "0.5s",
+              }
               : { marginLeft: "10px", transition: "0.5s" }
           }
         />
       </div>
-      <ul className={!open ? "open-ul" : "close-ul"}>{listContent}</ul>
+      <ul className={ !open ? "open-ul" : "close-ul" }>{ listContent }</ul>
     </div>
   );
 };
