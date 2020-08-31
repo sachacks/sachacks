@@ -1,7 +1,7 @@
 .hero-page {
     height: calc(100vw * 0.81875 + 0px);
     width: 100vw;
-    background-image: url("/final.png");
+    background-image: url("/hero-background.png");
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: contain;
     font-family: 'Puritan', sans-serif;
