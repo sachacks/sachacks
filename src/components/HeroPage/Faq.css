@@ -5,6 +5,7 @@
     background-image: url("/faq.png");
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: 100% auto, auto 100%;
+    background-color: #F8F8F8;
     color: white;
     display: flex;
     flex-direction: column;
@@ -35,7 +36,7 @@
     justify-content: flex-start;
 }
 
-@media (max-width: 451px) {
+@media (max-width: 541px) {
     .faq {
         height: auto;
         background-color: #011341;

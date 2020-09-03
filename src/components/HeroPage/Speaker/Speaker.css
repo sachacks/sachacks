@@ -23,7 +23,7 @@
     font-size: 20px;
 }
 
-@media (max-width: 451px) {
+@media (max-width: 541px) {
     .elem {
         padding: calc(100vw * 0.0266 + 0px) 50px;
     }

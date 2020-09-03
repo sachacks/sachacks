@@ -13,14 +13,14 @@ import Copyright from '../../shared/Copyright/Copyright';
 const Hero = () => {
     return (
         <React.Fragment>
-            <Loader />
+            {/* <Loader /> */}
             <div className='hero-page'>
                 <Navbar />
                 <MobileNavBar />
                 <About />
             </div>
             <Faq />
-            <Speakers />
+            {/* <Speakers /> */}
             <Sponsors />
             <Copyright />
         </React.Fragment>

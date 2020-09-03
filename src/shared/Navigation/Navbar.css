@@ -1,7 +1,13 @@
 .logo {
     height: 50%;
     width: 4%;
-    background-color: white;
+}
+
+.logo img {
+    height: 100%;
+    width: auto;
+    transform: rotate(90deg) translateX(-30px);
+    padding-bottom: 60px;
 }
 
 .nav {

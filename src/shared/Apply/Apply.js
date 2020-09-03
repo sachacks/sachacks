@@ -20,15 +20,15 @@ const Apply = ( props ) => {
             <div className={ name }>
                 <div className='icon' id='hacker'>
                     <img src='/Hacker-Icon.png' alt='hacker icon' />
-                    <p className='icon-name'>Hacker</p>
+                    <p className='icon-name'><a href='https://sachacks.typeform.com/to/r2sYTJ' target='_blank' rel="noopener noreferrer">Team</a></p>
                 </div>
-                <div className='icon' id='mentor'>
+                {/* <div className='icon' id='mentor'>
                     <img src='/Mentor-Icon.png' alt='mentor icon' />
                     <p className='icon-name'>Mentor</p>
-                </div>
+                </div> */}
                 <div className='icon' id='sponsor'>
                     <img src='/Sponsor-Icon.png' alt='sponsor icon' />
-                    <p className='icon-name'>Sponsor</p>
+                    <p className='icon-name'><a href='mailto: team@sachacks.io'>Sponsor</a></p>
                 </div>
             </div>
             { backdrop }

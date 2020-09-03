@@ -7,10 +7,10 @@
     font-family: 'Puritan', sans-serif;
 }
 
-@media (max-width: 451px) {
+@media (max-width: 541px) {
     .hero-page {
         height: 100vh;
-        background-image: none;
+        /* background-image: none; */
         background-color: #3D3D3D;
     }
 

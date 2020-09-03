@@ -14,3 +14,10 @@
     height: calc(100vw * 0.02 + 5px);
     width: calc(100vw * 0.02 + 5px);
 }
+
+@media (max-width: 541px) {
+    .media-button svg {
+        height: 25px;
+        width: 25px;
+    }
+}

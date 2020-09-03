@@ -15,12 +15,12 @@ const Faq = () => {
                     <Cards qa={ Questions.q2 } />
                     <Cards qa={ Questions.q3 } />
                     <Cards qa={ Questions.q4 } />
-                    <Cards qa={ Questions.q5 } />
                 </div>
                 <div className='right-side'>
-                    <Cards qa={ Questions.q6 } />
-                    <Cards qa={ Questions.q7 } />
-                    <Cards qa={ Questions.q8 } />
+                    <Cards qa={ Questions.q5 } />
+                    {/* <Cards qa={ Questions.q6 } /> */}
+                    {/* <Cards qa={ Questions.q7 } /> */}
+                    {/* <Cards qa={ Questions.q8 } /> */}
                     <Cards qa={ Questions.q9 } />
                     <Cards qa={ Questions.q10 } />
                 </div>
