@@ -4,3 +4,10 @@
     width: 200px;
     border: 1px solid #F2F2F2;
 }
+
+@media (max-width: 451px) {
+    .sp-elem {
+        height: 70px;
+        width: 70px;
+    }
+}

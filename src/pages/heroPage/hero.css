@@ -1,8 +1,17 @@
 .hero-page {
     height: calc(100vw * 0.81875 + 0px);
     width: 100vw;
-    background-image: url("/final.png");
+    background-image: url("/hero-background.png");
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: contain;
     font-family: 'Puritan', sans-serif;
+}
+
+@media (max-width: 451px) {
+    .hero-page {
+        height: 100vh;
+        background-image: none;
+        background-color: #3D3D3D;
+    }
+
 }

@@ -21,5 +21,45 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 90%;
+}
+
+.sub-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 80%;
+}
+
+.space-bottom {
+    display: none;
+}
+
+@media (max-width: 451px) {
+    .speakers {
+        height: auto;
+    }
+
+    .speakers h1 {
+        font-size: 18px;
+        margin: 30px 0px 30px calc(100vw * 0.08736559139 + 0px);
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .sub-row {
+        width: 100%;
+    }
+
+    .space-bottom {
+        height: 30px;
+        width: 100%;
+        display: flex;
+    }
 }

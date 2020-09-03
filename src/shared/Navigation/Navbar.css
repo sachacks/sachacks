@@ -40,3 +40,9 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 541px) {
+    .nav {
+        display: none;
+    }
+}

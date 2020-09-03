@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 0px;
+    padding: calc(100vw * 0.0266 + 0px) calc(100vw * 0.03 + 0px);
 }
 
 .elem-pic {
@@ -21,4 +21,23 @@
 
 .elem-title {
     font-size: 20px;
+}
+
+@media (max-width: 451px) {
+    .elem {
+        padding: calc(100vw * 0.0266 + 0px) 50px;
+    }
+
+    .elem-pic {
+        height: 65px;
+        width: 65px;
+    }
+
+    .elem-name {
+        font-size: 17px;
+    }
+
+    .elem-title {
+        font-size: 16px;
+    }
 }

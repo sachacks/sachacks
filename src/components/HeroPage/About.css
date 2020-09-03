@@ -64,3 +64,25 @@
     cursor: pointer;
 }
 
+@media (max-width: 451px) {
+    .about {
+        position: relative;
+        width: 100vw;
+        top: 150px;
+        left: 0;
+    }
+
+    .sachacks {
+        font-size: 55px;
+    }
+
+    .motto {
+        font-size: 30px;
+    }
+
+    .description {
+        width: 80%;
+        font-size: 18px;
+        line-height: 25px;
+    }
+}

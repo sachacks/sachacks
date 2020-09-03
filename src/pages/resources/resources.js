@@ -4,6 +4,7 @@ import './resources.css';
 import Navbar from '../../shared/Navigation/Navbar';
 import Copyright from '../../shared/Copyright/Copyright';
 import ResourcesCard from '../../components/ResourcesPage/ResourcesCard';
+import MobileNavBar from '../../shared/MobileNavBar/MobileNavBar';
 
 const resources = () => {
     const content1 = {
@@ -28,8 +29,9 @@ const resources = () => {
             <div className='resources-page'>
                 <div className='shadow-cover'>
                     <Navbar />
+                    <MobileNavBar />
                     <div className='resources-main'>
-                        <h1>Resources</h1>
+                        <h1 className='resources-header'>Resources</h1>
                         <div className='resources-content'>
                             <div className='horz-content'>
                                 <ResourcesCard content={ content1 } />

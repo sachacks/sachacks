@@ -6,6 +6,10 @@
 }
 
 .ques {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
     cursor: pointer;
     font-size: calc(100vw * .01591089896 + 0pt);
 }
@@ -29,4 +33,18 @@
 @keyframes slideUp {
     from { transform: translateY(0%); opacity: 1; }
     to { transform: translateY(-20%); opacity: 0; }
+}
+
+@media (max-width: 451px) {
+    .ques {
+        font-size: 12px;
+    }
+
+    .ans {
+        font-size: 11px;
+    }
+
+    .line {
+        border-bottom: 1px solid #4F5A81;
+    }
 }

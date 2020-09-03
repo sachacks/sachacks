@@ -4,7 +4,8 @@ import "./Copyright.css";
 const Copyright = () => {
   return (
     <div className="copyright">
-      <span>Copyright© 2020-21 Sachacks</span>
+      {/* Copyright© 2020-21 Sachacks */}
+      Black Lives Matter
     </div>
   );
 };

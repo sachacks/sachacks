@@ -10,8 +10,8 @@
   font-weight: 400;
 }
 
-@media only screen and (max-width: 568px) {
-  .copyright span {
-    font-size: 14px;
+@media (max-width: 451px) {
+  .copyright {
+    font-size: 30px;
   }
 }

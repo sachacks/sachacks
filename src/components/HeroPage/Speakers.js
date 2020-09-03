@@ -8,17 +8,26 @@ const Speakers = props => {
         <div className='speakers'>
             <h1>Speakers Panel</h1>
             <div className='row'>
-                <Speaker />
-                <Speaker />
-                <Speaker />
-                <Speaker />
+                <div className='sub-row'>
+                    <Speaker />
+                    <Speaker />
+                </div>
+                <div className='sub-row'>
+                    <Speaker />
+                    <Speaker />
+                </div>
             </div>
             <div className='row'>
-                <Speaker />
-                <Speaker />
-                <Speaker />
-                <Speaker />
+                <div className='sub-row'>
+                    <Speaker />
+                    <Speaker />
+                </div>
+                <div className='sub-row'>
+                    <Speaker />
+                    <Speaker />
+                </div>
             </div>
+            <div className='space-bottom'></div>
         </div>
     );
 };

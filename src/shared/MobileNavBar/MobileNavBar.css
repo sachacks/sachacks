@@ -1,0 +1,68 @@
+.mobile-nav, .mobile-hacker, .mobile-mentor, .mobile-sponsor, .mobile-schedule, .mobile-resources, .mobile-contact {
+    display: none;
+}
+
+@media (max-width: 451px) {
+    .mobile-nav {
+        position: absolute;
+        height: 100px;
+        width: 100%;
+        background-color: black;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        z-index: 20;
+    }
+
+    .hamburger-icon, .mobile-logo, .mobile-apply {
+        height: 100%;
+        width: 33.3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .placeholder {
+        height: 40px;
+        width: 40px;
+        border-radius: 40px;
+        background-color: white;
+    }
+
+    .mobile-hacker, .mobile-mentor, .mobile-sponsor, .mobile-schedule, .mobile-resources, .mobile-contact {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+        background-color: #EEEEEE;
+        z-index: 10;
+        border-bottom: 3px solid #D8D8D8;
+        font-size: 28px;
+    }
+
+    .mobile-hacker img, .mobile-mentor img, .mobile-sponsor img {
+        height: auto;
+        width: 50px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .mobile-schedule, .mobile-resources, .mobile-contact {
+        background-color: #FFF;
+    }
+
+    .mobile-schedule a, .mobile-resources a, .mobile-contact a {
+        padding-left: 50px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}

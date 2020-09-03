@@ -6,7 +6,7 @@ import SocialMedia from './SocialMedia/SocialMedia';
 const About = () => {
     return (
         <div className='about'>
-            <h1 className='sachacks'>Sachacks</h1>
+            <h1 className='sachacks'>SacHacks</h1>
             <h2 className='motto'>
                 <span className='red'>Design.</span>
                 <span className='green'>Code.</span>
