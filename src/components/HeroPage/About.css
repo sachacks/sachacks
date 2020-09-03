@@ -34,6 +34,11 @@
     color: #8995FF;
 }
 
+.date {
+    font-size: calc(100vw * 0.01140939597 + 5pt);
+    margin: 10px 0;
+}
+
 .description {
     width: calc(100vw * 0.4497992 + 0px);
     font-size: calc(100vw * 0.01140939597 + 5pt);
@@ -78,6 +83,10 @@
 
     .motto {
         font-size: 30px;
+    }
+
+    .date {
+        font-size: 18px;
     }
 
     .description {

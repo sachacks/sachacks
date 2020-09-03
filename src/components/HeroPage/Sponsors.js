@@ -3,14 +3,14 @@ import './Sponsors.css';
 
 import Sponsor from './Sponsor/Sponsor';
 
-const sponsor1 = { link: '/sponsors/sac_kings_logo.png', alt: 'Kings Logo' };
-const partner1 = { link: '/partners/mlh-logo-white.png', alt: 'MLH Logo' };
-const partner2 = { link: '/partners/hack-club-bank.png', alt: 'Hack Club Bank Logo' };
-const partner3 = { link: '/partners/HL-Logo-Traditional.png', alt: 'Hacker Lab Logo' };
-const partner4 = { link: '/partners/fcc_eg_logo_transparent.png', alt: 'FreeCodeCamp Logo' };
-const partner5 = { link: '/partners/acm.png', alt: 'ACM Logo' };
-const partner6 = { link: '/partners/sdc.jpg', alt: 'SDC Logo' };
-const partner7 = { link: '/partners/wics.png', alt: 'WICS Logo' };
+const sponsor1 = { img: '/sponsors/sac_kings_logo.png', alt: 'Kings Logo', link: 'https://www.nba.com/kings/'  };
+const partner1 = { img: '/partners/mlh-logo-white.png', alt: 'MLH Logo', link: 'https://mlh.io/' };
+const partner2 = { img: '/partners/hack-club-bank.png', alt: 'Hack Club Bank Logo', link: 'https://hackclub.com/' };
+const partner3 = { img: '/partners/HL-Logo-Traditional.png', alt: 'Hacker Lab Logo', link: 'https://hackerlab.org/en' };
+const partner4 = { img: '/partners/fcc_eg_logo_transparent.png', alt: 'FreeCodeCamp Logo', link: 'https://www.meetup.com/freeCodeCamp-Greater-Sacramento-Area/' };
+const partner5 = { img: '/partners/acm.png', alt: 'ACM Logo', link: 'http://losriosccd.acm.org/' };
+const partner6 = { img: '/partners/sdc.jpg', alt: 'SDC Logo', link: 'https://www.sacdevcollective.org/' };
+const partner7 = { img: '/partners/wics.png', alt: 'WICS Logo', link: 'https://www.facebook.com/DavisWICS/' };
 
 const Sponsors = () => {
     return (

@@ -36,6 +36,10 @@
     justify-content: flex-start;
 }
 
+#coc {
+    text-decoration: underline;
+}
+
 @media (max-width: 541px) {
     .faq {
         height: auto;
