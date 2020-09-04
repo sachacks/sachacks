@@ -14,7 +14,7 @@ const Faq = () => {
 
     return (
         <div className='faq'>
-            <h1>Frequently Asked Question</h1>
+            <h1>Frequently Asked Questions</h1>
             <div className='questions'>
                 <div className='left-side'>
                     <Cards qa={ Questions.q1 } />

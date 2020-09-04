@@ -1,7 +1,7 @@
 export const q1 = {
   q: "How Does COVID-19 Affect Sachacks?",
   a:
-    "Our team is closely monitoring the pandemic and will keep the safety ans health of our participants as our main priority",
+    "Our team is closely monitoring the pandemic and will keep the safety ans health of our participants as our main priority.",
 };
 export const q2 = {
   q: "What Is A Hackathon?",
