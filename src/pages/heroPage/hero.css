@@ -13,6 +13,7 @@
         background-image: url("/hero/mobile-hero.png");
         background-color: #3D3D3D;
         background-position: bottom;
+        background-size: cover;
     }
 
 }
