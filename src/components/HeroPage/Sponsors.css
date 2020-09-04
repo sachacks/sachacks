@@ -26,14 +26,11 @@
     margin: 0px 0px 50px 0px;
 }
 
-#temp {
+.temp, .king {
     justify-content: center;
 }
 
-#temp img {
-    height: auto;
-    width: 300px;
-}
+
 
 .sp-space {
     width: 100%;
