@@ -38,6 +38,7 @@
 
 #coc {
     text-decoration: underline;
+    color: white;
 }
 
 @media (max-width: 541px) {
