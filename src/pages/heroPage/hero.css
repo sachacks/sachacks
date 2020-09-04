@@ -1,9 +1,19 @@
 .hero-page {
-    height: calc(100vw * 0.7052 + 300px);
-    width: 100%;
-    background-image: url("/final.png"), url('/background.png') ;
-    background-position: 0px 300px, -230px 0px;
+    height: calc(100vw * 0.81875 + 0px);
+    width: 100vw;
+    background-image: url("/hero/hero-background.png");
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: 100% auto, 120% auto;
+    background-size: contain;
     font-family: 'Puritan', sans-serif;
+}
+
+@media (max-width: 541px) {
+    .hero-page {
+        height: 100vh;
+        background-image: url("/hero/mobile-hero.png");
+        background-color: #3D3D3D;
+        background-position: bottom;
+        background-size: cover;
+    }
+
 }

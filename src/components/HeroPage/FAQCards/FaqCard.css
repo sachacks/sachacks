@@ -6,18 +6,23 @@
 }
 
 .ques {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
     cursor: pointer;
+    font-size: calc(100vw * .01591089896 + 0pt);
 }
 
 .ans {
-    font-size: 17pt;
+    font-size: calc(100vw * 0.01352426412 + 0pt);
     padding: 15px 0px;
 }
 
 .line {
     width: 100%;
     border-bottom: 1.5px solid white;
-    padding-top: 20px;
+    padding-top: calc(100vw * 0.01606 + 0px);
 }
 
 @keyframes slideDown {
@@ -28,4 +33,18 @@
 @keyframes slideUp {
     from { transform: translateY(0%); opacity: 1; }
     to { transform: translateY(-20%); opacity: 0; }
+}
+
+@media (max-width: 541px) {
+    .ques {
+        font-size: 12px;
+    }
+
+    .ans {
+        font-size: 11px;
+    }
+
+    .line {
+        border-bottom: 1px solid #4F5A81;
+    }
 }

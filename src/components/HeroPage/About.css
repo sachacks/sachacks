@@ -2,16 +2,19 @@
     width: 600px;
     margin-left: 7%;
     color: white;
+    z-index: 1;
+    position: relative;
+    top: calc(100vw * 0.0801 * -1 + 0px);
 }
 
 .sachacks {
-    font-size: 70px;
+    font-size: calc(100vw * 0.04697986577 + 0pt);
     font-weight: 700;
     margin: 20px 0px;
 }
 
 .motto {
-    font-size: 40px;
+    font-size: calc(100vw * 0.02013422818 + 5pt);
     font-weight: 600;
     width: 100%;
     margin: 15px 0px;
@@ -23,13 +26,23 @@
 }
 
 .motto .green {
+    color: #7BDDDE;
     padding-right: 10px;
 }
 
+.motto .blue {
+    color: #8995FF;
+}
+
+.date {
+    font-size: calc(100vw * 0.01140939597 + 5pt);
+    margin: 10px 0;
+}
+
 .description {
-    width: 100%;
-    font-size: 17pt;
-    line-height: 30pt;
+    width: calc(100vw * 0.4497992 + 0px);
+    font-size: calc(100vw * 0.01140939597 + 5pt);
+    line-height: calc(100vw * 0.024096 + 0pt);
 }
 
 .map-buttons {
@@ -41,8 +54,9 @@
 }
 
 .map-button {
-    height: 50px;
-    width: 170px;
+    height: calc(100vw * 0.027 + 3px);
+    width: calc(100vw * 0.118 + 0px);
+    font-size: calc(100vw * 0.01 + 3px);
     background-color: #ffffff;
     margin: 0px 20px 0px 0px;
     border: 2px solid #DCDCDC;
@@ -53,4 +67,33 @@
     justify-content: center;
     color: #000000;
     cursor: pointer;
+}
+
+@media (max-width: 541px) {
+    .about {
+        position: relative;
+        width: 83%;
+        top: 250px;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px 0px 20px 10px;
+    }
+
+    .sachacks {
+        font-size: 55px;
+    }
+
+    .motto {
+        font-size: 30px;
+    }
+
+    .date {
+        font-size: 18px;
+    }
+
+    .description {
+        width: 80%;
+        font-size: 18px;
+        line-height: 25px;
+    }
 }

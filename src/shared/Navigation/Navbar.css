@@ -1,7 +1,13 @@
 .logo {
     height: 50%;
     width: 4%;
-    background-color: white;
+}
+
+.logo img {
+    height: 100%;
+    width: auto;
+    transform: rotate(90deg) translateX(-30px);
+    padding-bottom: 60px;
 }
 
 .nav {
@@ -10,17 +16,21 @@
     align-items: center;
     justify-content: flex-end;
     background-color: transparent;
-    height: 130px;
+    height: calc(100vw * 0.08814102564 + 0px);
     width: 100%;
     font-family: 'Puritan', sans-serif;
 }
 
-.nav a {
+.nav a, .apply {
     text-decoration: none;
     color: white;
-    font-size: 24pt;
+    font-size: calc(100vw * 0.0192 + 2pt);
     font-weight: 400;
-    margin: 30px;
+    margin: calc(100vw * 0.024);
+}
+
+.apply {
+    cursor: pointer;
 }
 
 .space {
@@ -35,4 +45,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 541px) {
+    .nav {
+        display: none;
+    }
 }
