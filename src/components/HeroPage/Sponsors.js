@@ -5,6 +5,8 @@ import Sponsor from './Sponsor/Sponsor';
 
 const sponsor1 = { img: '/sponsors/sac_kings_logo.png', alt: 'Kings Logo', link: 'https://www.nba.com/kings/' };
 const sponsor2 = { img: '/sponsors/Bugsee-Logo.svg', alt: 'Bugsee Logo', link: 'https://www.bugsee.com/' };
+const sponsor3 = { img: '/sponsors/8vc.png', alt: '8vc Logo', link: 'https://8vc.com/' };
+
 const partner1 = { img: '/partners/mlh-logo-white.png', alt: 'MLH Logo', link: 'https://mlh.io/' };
 const partner2 = { img: '/partners/hack-club-bank.png', alt: 'Hack Club Bank Logo', link: 'https://hackclub.com/' };
 const partner3 = { img: '/partners/HL-Logo-Traditional.png', alt: 'Hacker Lab Logo', link: 'https://hackerlab.org/en' };
@@ -22,9 +24,7 @@ const Sponsors = () => {
             </div>
             <div className='sp-row temp'>
                 <Sponsor img={ sponsor2 } />
-                {/* <Sponsor />
-                <Sponsor />
-                <Sponsor /> */}
+                <Sponsor img={ sponsor3 } />
             </div>
             <h1 id='partner' >Partners</h1>
             <div className='sp-row'>

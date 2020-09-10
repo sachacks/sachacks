@@ -26,11 +26,14 @@
     margin: 0px 0px 50px 0px;
 }
 
-.temp, .king {
+.king {
     justify-content: center;
 }
 
-
+.temp .sp-elem {
+    justify-content: center;
+    margin: 0 10%;
+}
 
 .sp-space {
     width: 100%;

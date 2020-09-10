@@ -1,11 +1,11 @@
 .faq {
-    height: calc(100vw * 1.0125 + 0px);
+    height: auto;
     width: 100vw;
     font-family: 'Puritan', sans-serif;
-    background-image: url("/faq.png");
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: 100% auto, auto 100%;
-    background-color: #F8F8F8;
+    /* background-image: url("/faq.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto, auto 100%; */
+    background-color: #00093C;
     color: white;
     display: flex;
     flex-direction: column;
@@ -36,6 +36,15 @@
     justify-content: flex-start;
 }
 
+.faq-bottom {
+    background-color: #F8F8F8;
+}
+
+.faq-bottom img {
+    width: 100%;
+    height: auto;
+}
+
 #coc {
     text-decoration: underline;
     color: white;
@@ -44,7 +53,7 @@
 @media (max-width: 541px) {
     .faq {
         height: auto;
-        background-color: #011341;
+        background-color: #00093C;
         padding-bottom: 40px;
     }
 
