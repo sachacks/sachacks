@@ -36,7 +36,8 @@ const Faq = () => {
                     </div>
                 </div>
             </div>
-            <div className='faq-bottom'><img src='/faq-bottom.png' alt='FAQ footer' /></div>
+            {/* <div className='faq-bottom'><img src='/faq-bottom.png' alt='FAQ footer' /></div> */}
+            <div id='wave'></div>
         </React.Fragment>
     );
 };
