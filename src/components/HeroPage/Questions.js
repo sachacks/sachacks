@@ -1,12 +1,10 @@
 export const q1 = {
   q: "How Does COVID-19 Affect Sachacks?",
-  a:
-    "Our team is closely monitoring the pandemic and will keep the safety ans health of our participants as our main priority",
+  a: "Our team is closely monitoring the pandemic and will keep the safety and health of our participants as our main priority.",
 };
 export const q2 = {
   q: "What Is A Hackathon?",
-  a:
-    "A hackathon occurs when passionate people gather together to create, build, and launch their ideas with tech.",
+  a: "A hackathon occurs when passionate people gather together to create, build, and launch their ideas with tech.",
 };
 export const q3 = {
   q: "How much does it cost?",

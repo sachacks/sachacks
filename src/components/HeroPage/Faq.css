@@ -1,11 +1,11 @@
 .faq {
-    height: calc(100vw * 1.0125 + 0px);
+    height: auto;
     width: 100vw;
     font-family: 'Puritan', sans-serif;
-    background-image: url("/faq.png");
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: 100% auto, auto 100%;
-    background-color: #F8F8F8;
+    /* background-image: url("/faq.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto, auto 100%; */
+    background-color:rgb(3, 17, 59);
     color: white;
     display: flex;
     flex-direction: column;
@@ -36,19 +36,58 @@
     justify-content: flex-start;
 }
 
+.faq-bottom {
+    background-color: #F8F8F8;
+}
+
+.faq-bottom img {
+    width: 100%;
+    height: auto;
+}
+
 #coc {
     text-decoration: underline;
+    color: white;
+}
+
+#wave {
+    position: relative;
+    height: calc(100vw * 0.1166667);
+    width: 100vw;
+    background: rgb(3, 17, 59);
+}
+#wave:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: calc(100vw * 0.566667);
+    height: calc(100vw * 0.13333);
+    background-color: #F8F8F8;
+    right: calc(-100vw * 0.0083333);
+    top: calc(100vw * 0.0666667);
+}
+#wave:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: calc(100vw * 0.515);
+    height: calc(100vw * 0.1166667);
+    background-color: rgb(3, 17, 59);
+    left: calc(-100vw * 0.00436999);
+    top: calc(100vw * 0.045);
 }
 
 @media (max-width: 541px) {
     .faq {
         height: auto;
-        background-color: #011341;
+        background-color: rgb(3, 17, 59);
         padding-bottom: 40px;
     }
 
     .faq h1 {
-        font-size: 18px;
+        font-size: 21px;
         padding: 30px 0 0 0;
     }
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './App.css';
 
 import Hero from './pages/heroPage/hero';
@@ -6,7 +6,14 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Schedule from './pages/schedule/schedule';
 import Resources from './pages/resources/resources';
 
+import Aos from 'aos';
+
 function App () {
+
+  useEffect( () => {
+    Aos.init( { duration: 1200 } );
+  } );
+
   return (
     <Router>
       <div className="App">

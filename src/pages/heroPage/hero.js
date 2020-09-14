@@ -1,7 +1,7 @@
 import React from 'react';
 import './hero.css';
 
-import Loader from '../../shared/Loader/Loader';
+// import Loader from '../../shared/Loader/Loader';
 import Navbar from '../../shared/Navigation/Navbar';
 import MobileNavBar from '../../shared/MobileNavBar/MobileNavBar';
 import About from '../../components/HeroPage/About';

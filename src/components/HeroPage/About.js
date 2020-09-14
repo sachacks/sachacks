@@ -4,8 +4,9 @@ import './About.css';
 import SocialMedia from './SocialMedia/SocialMedia';
 
 const About = () => {
+
     return (
-        <div className='about'>
+        <div className='about' data-aos='fade-up'>
             <h1 className='sachacks'>SacHacks</h1>
             <h2 className='motto'>
                 <span className='red'>Design.</span>
