@@ -1,6 +1,6 @@
 .backdrop {
-    height: calc(100vh - 100vw * 0.1626 + 0px);
-    width: 100vw;
+    height: calc(100vh - 100vw * 0.169 + 0px);
+    width: 99%;
     z-index: 100;
     background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(2px);
