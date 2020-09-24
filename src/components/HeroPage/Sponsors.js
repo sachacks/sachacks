@@ -30,7 +30,7 @@ const Sponsors = () => {
             </div>
             <h1 id='partner' >Partners</h1>
             <div className='sp-row'>
-                <Sponsor img={ partner1 } />
+                {/* <Sponsor img={ partner1 } /> */}
                 <Sponsor img={ partner2 } />
                 <Sponsor img={ partner3 } />
                 <Sponsor img={ partner4 } />
