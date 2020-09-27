@@ -98,11 +98,28 @@
   }
 }
 
-/* Iphone SE  */
-@media (max-width: 325px) {
+/* Iphone SE and Iphone 6/7/8 */
+@media (max-height: 811px) {
   .about {
-    margin-left: 0px;
-    width: 100%;
-    top: 100px;
+    top: 20vh;
+  }
+}
+
+/* Iphone SE */
+@media (max-width: 321px) {
+  .sachacks {
+    font-size: 47px;
+  }
+
+  .motto {
+    font-size: 24px;
+  }
+
+  .date {
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 16px;
   }
 }
