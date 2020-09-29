@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 
 import Hero from './pages/heroPage/hero';
@@ -18,6 +18,10 @@ function App () {
     <Router>
       <div className="App">
         <Switch>
+          <Route path='/team' component={ () => {
+            window.location.href = 'https://sachacks.typeform.com/to/r2sYTJ';
+            return null;
+          } } />
           <Route path="/schedule">
             <Schedule />
           </Route>

@@ -8,7 +8,9 @@ const sponsor2 = { img: '/sponsors/Bugsee-Logo.svg', alt: 'Bugsee Logo', link: '
 const sponsor3 = { img: '/sponsors/8VC.png', alt: '8vc Logo', link: 'https://8vc.com/' };
 const sponsor4 = { img: '/sponsors/digital-ocean.png', alt: 'Digital Ocean Logo', link: 'https://www.digitalocean.com/' };
 
-const partner1 = { img: '/partners/mlh-logo-white.png', alt: 'MLH Logo', link: 'https://mlh.io/' };
+
+// Comment this one in after cleared by MLH ->
+// const partner1 = { img: '/partners/mlh-logo-white.png', alt: 'MLH Logo', link: 'https://mlh.io/' };
 const partner2 = { img: '/partners/hack-club-bank.png', alt: 'Hack Club Bank Logo', link: 'https://hackclub.com/' };
 const partner3 = { img: '/partners/HL-Logo-Traditional.png', alt: 'Hacker Lab Logo', link: 'https://hackerlab.org/en' };
 const partner4 = { img: '/partners/fcc_eg_logo_transparent.png', alt: 'FreeCodeCamp Logo', link: 'https://www.meetup.com/freeCodeCamp-Greater-Sacramento-Area/' };
