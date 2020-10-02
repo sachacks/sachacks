@@ -1,10 +1,20 @@
+/**
+ * This component is also navigation bar for the mobile version
+ * 
+ * Potential refractoring
+ * 1. Inline HTML styling makes it hella long and annoying. Can utilize CSS class for styling more.
+ */
+
 import React, { useState } from 'react';
 import './MobileNavBar.css';
 
+// React router to link different pages
+import { Link } from 'react-router-dom';
+
+// Add more logos or icons here
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { GoTriangleDown } from 'react-icons/go';
 import { MdClose } from 'react-icons/md';
-import { Link } from 'react-router-dom';
 
 const MobileNavBar = () => {
 
@@ -14,18 +24,23 @@ const MobileNavBar = () => {
     return (
         <React.Fragment>
             <div className='mobile-nav'>
+                {/* Hamburger Icon - top-left of the screen */}
                 <div className='hamburger-icon' onClick={ () => setClicked( !clicked ) } style={ clicked ? { transform: 'rotate(180deg)', transition: '0.5s' } : { transform: 'rotate(180deg)', transition: '0.5s' } }>
                     { clicked ? <GiHamburgerMenu size={ 30 } fill='white' /> : <MdClose size={ 30 } fill='white' /> }
                 </div>
+
+                {/* SacHacks Logo in the middle */}
                 <div className='mobile-logo'>
                     <Link to='/'><img src='/rocket.png' alt='SacHacks Mobile Logo' /></Link>
                 </div>
+
+                {/* Apply button - top-right of the screen */}
                 <div className='mobile-apply' onClick={ () => setOpen( !open ) } style={ !open ? { color: '#7BDDDE', transition: '0.5s' } : { color: '#fff', transition: '0.5s' } }>
                     Apply <GoTriangleDown fill={ !open ? '#7BDDDE' : 'white' } size='20px' style={ !open ? { marginLeft: '5px', transform: 'rotate(180deg)', transition: '0.5s' } : { marginLeft: '5px', transition: '0.5s' } } />
                 </div>
             </div>
 
-            {/* Apply Icon */ }
+            {/* Apply Dropdowns */ }
             <div className='mobile-hacker' style={ open ? { transform: 'translateY(-100px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(100px)', transition: '0.5s ease-in-out', opacity: '1' } }>
                 <img src='/mobile/black-hacker-icon.png' alt='mobile hacker icon' /> <a href='https://sachacks.typeform.com/to/r2sYTJ' target='_blank' rel="noopener noreferrer">Team</a>
             </div>
@@ -37,7 +52,7 @@ const MobileNavBar = () => {
                 <img src='/mobile/black-sponsor-icon.png' alt='mobile hacker icon' /> Sponsor
             </div>
 
-            {/* Menu Icon */ }
+            {/* Menu Dropdowns */ }
             {/* <div className='mobile-schedule' style={ clicked ? { transform: 'translateY(-100px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(80px)', transition: '0.5s ease-in-out', opacity: '1' } }>
                 <Link to='/schedule'>Schedule</Link>
             </div>

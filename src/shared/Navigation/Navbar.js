@@ -1,9 +1,22 @@
+/**
+ * This is a navigation bar component for the desktop version
+ * - There is not really anything much to it honestly, it a navbar
+ * 
+ * Potential refactoring
+ * 1. Fix the CSS refactor. Currently using in-line HTML styling, not the best practice but it works
+ */
+
 import React, { useState } from 'react';
 import './Navbar.css';
 
+// React router to link different pages
 import { Link } from 'react-router-dom';
-import { GoTriangleDown } from 'react-icons/go';
+
+// Add more components here
 import Apply from '../Apply/Apply';
+
+// Add more logos or symbols here
+import { GoTriangleDown } from 'react-icons/go';
 
 const Navbar = () => {
 

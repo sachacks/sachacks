@@ -1,3 +1,8 @@
+/**
+ * Derek's idea of having a CSS Loader at the very beginning of the page.
+ * Still no progress - wtv we'll see
+ */
+
 import React from 'react'
 import './Loader.css'
 

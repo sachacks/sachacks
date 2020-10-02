@@ -1,3 +1,7 @@
+/**
+ * Copyright component at the bottom of every page - nothing to expalin here
+ */
+
 import React from "react";
 import "./Copyright.css";
 

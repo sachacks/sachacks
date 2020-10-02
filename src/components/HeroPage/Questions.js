@@ -1,3 +1,7 @@
+/**
+ * These are all the questions and answers for the FAQ section
+ */
+
 export const q1 = {
   q: "How Does COVID-19 Affect Sachacks?",
   a: "Our team is closely monitoring the pandemic and will keep the safety and health of our participants as our main priority.",

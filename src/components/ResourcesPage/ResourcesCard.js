@@ -1,6 +1,14 @@
+/**
+ * This is a component for the resources page
+ * The format is simply
+ * - Header
+ * - Dropdown list
+ */
+
 import React, { useState } from "react";
 import "./ResourcesCard.css";
 
+// add more icons here
 import { GoTriangleDown } from "react-icons/go";
 
 const ResourcesCard = ( props ) => {

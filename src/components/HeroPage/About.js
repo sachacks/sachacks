@@ -1,3 +1,7 @@
+/**
+ * This component is at the very top of the landing page
+ */
+
 import React from 'react';
 import './About.css';
 

@@ -1,5 +1,17 @@
+/**
+ * This apply component is for the desktop version only
+ * There are three buttons
+ * 1. Hacker
+ * 2. Mentor
+ * 3. Sponsor
+ * 
+ * Nothing else to explain here
+ */
+
 import React from 'react';
 import './Apply.css';
+
+// Add more components here
 import Backdrop from '../Backdrop/Backdrop';
 
 const Apply = ( props ) => {

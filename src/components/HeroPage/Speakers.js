@@ -1,6 +1,12 @@
+/**
+ * This is the guest speaker section
+ * Add more speaker by utilizing <Speaker /> element
+ */
+
 import React from 'react';
 import './Speakers.css';
 
+// Import more components here
 import Speaker from './Speaker/Speaker'
 
 const Speakers = props => {

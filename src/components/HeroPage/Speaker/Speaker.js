@@ -1,3 +1,7 @@
+/**
+ * This is a sub-component of the Speaker section - display info of each speaker
+ */
+
 import React from 'react';
 import './Speaker.css';
 
