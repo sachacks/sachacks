@@ -1,3 +1,7 @@
+/**
+ * This is a sub-component of the FAQ section - display each question and answer
+ */
+
 import React, { useState } from 'react';
 import './FaqCard.css';
 

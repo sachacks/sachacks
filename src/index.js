@@ -1,3 +1,5 @@
+/** DON'T EVER DO ANYTHING TO THIS FILE!! */
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';

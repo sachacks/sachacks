@@ -19,6 +19,11 @@
     height: calc(100vw * 0.08814102564 + 0px);
     width: 100%;
     font-family: 'Puritan', sans-serif;
+    transition: 0.3s;
+}
+
+.nav:hover {
+    background-color: #000;
 }
 
 .nav a, .apply {
@@ -27,6 +32,12 @@
     font-size: calc(100vw * 0.0192 + 2pt);
     font-weight: 400;
     margin: calc(100vw * 0.024);
+    transition: 0.1s;
+    padding-bottom: 10px;
+}
+
+.nav-btn:hover, .apply:hover {
+    border-bottom: 2px solid #fff;
 }
 
 .apply {

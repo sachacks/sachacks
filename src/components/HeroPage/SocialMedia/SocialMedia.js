@@ -1,6 +1,11 @@
+/**
+ * This is a sub-component of the about section - display all the icons
+ */
+
 import React from 'react';
 import './SocialMedia.css'
 
+// Add more icons here
 import { FaFacebook, FaLinkedin, FaInstagram, FaTwitter, FaMedium } from 'react-icons/fa';
 
 const SocialMedia = () => {

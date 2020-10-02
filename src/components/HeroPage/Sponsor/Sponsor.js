@@ -1,3 +1,7 @@
+/**
+ * This is a sub-component of the Sponsor section - displays each Sponsor
+ */
+
 import React from 'react';
 import './Sponsor.css';
 

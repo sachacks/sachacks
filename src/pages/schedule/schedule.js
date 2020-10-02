@@ -1,3 +1,14 @@
+/**
+ * Schedule page is quite self-explanatory, this is where people come look at the schedule
+ * - Please go visit Figma for more information
+ * For this page, there are three main components:
+ * 1. Schedule for 1st day
+ * 2. Schedule for 2nd day
+ * 3. Map
+ * 
+ * - Currently we still haven't fill out any info because we still do not know the schedule
+ */
+
 import React from 'react';
 import './schedule.css';
 

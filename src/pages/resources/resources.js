@@ -1,6 +1,22 @@
+/**
+ * This is the resources page where hackers come to look for basic info
+ * such as: Tracks, How to submit the project, some API available, etc.
+ * 
+ * We separate the components into four main comp:
+ * 1. Hardware & API
+ * 2. Prizes
+ * 3. Submissions
+ * 4. Tracks
+ * 
+ * Since they all have the same format - we can take advantage of React to create a reusable card
+ * If you would like to makes any changes, please go to this file
+ * - ResourcesCard -> sachacks/src/components/ResourcesPage/ResourcesCard.js
+ */
+
 import React from 'react';
 import './resources.css';
 
+// Import components for this page here
 import Navbar from '../../shared/Navigation/Navbar';
 import Copyright from '../../shared/Copyright/Copyright';
 import ResourcesCard from '../../components/ResourcesPage/ResourcesCard';
